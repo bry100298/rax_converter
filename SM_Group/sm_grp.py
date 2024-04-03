@@ -31,18 +31,28 @@ def xml_to_excel(xml_file, inbound_folder, outbound_folder, archive_folder, erro
     data = []
     for article in root.findall('.//article'):
         trans_code = article.find('transCode').text
+        EDI_TransType = None
         po_number = article.find('poNumber').text
         doc_ref = article.find('docRef').text
+        EDI_DocRef = None
+        EDI_DocDesc = None
         gross_amount = article.find('grossAmount').text
-        net_payable = article.find('netAmount').text
+        EDI_VAT = None
+        EDI_EWT = None
+        netAmount = article.find('netAmount').text
         check_number = root.find('.//checkNumber').text
         check_date = root.find('.//checkDate').text
+        #netPayable = root.find('//netPayable').text
+
+        # Extract netPayable directly from the root
+        netPayable_elem = root.find('.//netPayable')
+        netPayable = netPayable_elem.text if netPayable_elem is not None else None
 
         # Append to data list
-        data.append([trans_code, po_number, doc_ref, gross_amount, net_payable, check_number, check_date])
+        data.append([trans_code, EDI_TransType, po_number, doc_ref, EDI_DocRef, EDI_DocDesc, gross_amount, EDI_VAT, EDI_EWT, netAmount, check_number, check_date, netPayable])
 
     # Create DataFrame
-    df = pd.DataFrame(data, columns=['transCode', 'poNumber', 'docRef', 'grossAmount', 'EDI_Net', 'checkNumber', 'checkDate'])
+    df = pd.DataFrame(data, columns=['EDI_DocType', 'EDI_TransType', 'EDI_PORef', 'EDI_InvRef', 'EDI_DocRef', 'EDI_DocDesc', 'EDI_Gross', 'EDI_VAT', 'EDI_EWT', 'EDI_Net', 'EDI_RARef', 'EDI_RADate', 'EDI_RAAmt'])
 
     # Create Excel file path
     excel_file = os.path.join(outbound_folder, os.path.basename(xml_file).replace('.xml', '.xlsx'))
