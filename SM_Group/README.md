@@ -35,7 +35,6 @@
 
 <h2>Script Flow Diagram</h2>
 
-
 <ul>
     <li>Start
         <ul>
@@ -60,7 +59,10 @@
                             <li>Create DataFrame</li>
                             <li>Create Excel file path</li>
                             <li>Write DataFrame to Excel</li>
-                            <li>Move XML file to Archive Folder</li>
+                            <li>Create Archive Folder if not exists</li>
+                            <li>Copy Excel file to Archive excel Folder</li>
+                            <li>Move XML file to Archive xml Folder</li>
+                            <li>Move Excel file from Inbound\Outbound to Outbound Folder</li>
                         </ul>
                     </li>
                 </ul>
@@ -73,20 +75,15 @@
 <h2>Description</h2>
 
 <ul>
-    <li>This diagram outlines the main steps performed by the script:
-        <ul>
-            <li>Checking the Inbound Folder for XML files.</li>
-            <li>Iterating over each XML file found.</li>
-            <li>Verifying conditions such as filename starting with "RA" and company name being "SANFORD MARKETING CORPORATION".</li>
-            <li>Extracting data from the XML files.</li>
-            <li>Creating a DataFrame from the extracted data.</li>
-            <li>Writing the DataFrame to an Excel file.</li>
-            <li>Moving the processed XML file to the Archive Folder.</li>
-        </ul>
-    </li>
+    <li>This diagram outlines the main steps performed by the script:</li>
+    <li>Starts by checking the Inbound Folder for XML files.</li>
+    <li>Iterates over each XML file found and performs the following actions:</li>
+    <li>Checks if the filename starts with "RA" and if the company name is "SANFORD MARKETING CORPORATION".</li>
+    <li>If conditions are met, the script extracts data from the XML file, creates a DataFrame, and writes it to an Excel file.</li>
+    <li>Archives the Excel file and moves both the XML and Excel files to their respective archive folders.</li>
+    <li>Moves the Excel file to the Outbound Folder.</li>
     <li>Additionally, there's a delay of 15 seconds between processing each XML file, implemented using the <code>time.sleep()</code> function.</li>
 </ul>
-
 
 <img src="https://i.imgur.com/0piWgBm.png" alt="Script Flow Diagram">
 
