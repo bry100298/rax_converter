@@ -4,6 +4,14 @@ import pandas as pd
 from xml.etree import ElementTree as ET
 import time
 
+# Variable array or object mapping company folders to company names
+company_names = {
+    'SSMI': "SUPER SHOPPING MARKET, INC.",
+    'PSGS': "PASIG SUPERMARKET INC.",
+    'SUPV': "SUPERVALUE INC.",
+    'SANF': "SANFORD MARKETING CORPORATION"
+}
+
 # Function to convert XML to Excel
 def xml_to_excel(xml_file, inbound_folder, outbound_folder, inbound_outbound_folder, archive_folder, error_folder):
     # Parse XML file
@@ -13,13 +21,16 @@ def xml_to_excel(xml_file, inbound_folder, outbound_folder, inbound_outbound_fol
     # Check if filename starts with "RA" (case sensitive)
     if not os.path.basename(xml_file).startswith('RA'):
         # Move file to Error Folder
+        company_folder = os.path.basename(os.path.dirname(xml_file))
         print(f"Moving '{os.path.basename(xml_file)}' to Error Folder - File name doesn't start with 'RA'")
-        shutil.move(xml_file, os.path.join(error_folder, 'Error'))
+        shutil.move(xml_file, os.path.join(error_folder, 'Error', company_folder))
         return
 
     # Extract data from XML
     data = []
     for article in root.findall('.//article'):
+        company_folder = os.path.basename(os.path.dirname(xml_file))
+        payeeName = root.find('.//payeeName').text
         trans_code = article.find('transCode').text
         EDI_TransType = None
         po_number = article.find('poNumber').text
@@ -27,6 +38,7 @@ def xml_to_excel(xml_file, inbound_folder, outbound_folder, inbound_outbound_fol
         EDI_DocRef = None
         EDI_DocDesc = None
         gross_amount = article.find('grossAmount').text
+        discount = article.find('discount').text
         EDI_VAT = None
         EDI_EWT = None
         netAmount = article.find('netAmount').text
@@ -39,10 +51,10 @@ def xml_to_excel(xml_file, inbound_folder, outbound_folder, inbound_outbound_fol
         netPayable = netPayable_elem.text if netPayable_elem is not None else None
 
         # Append to data list
-        data.append([trans_code, EDI_TransType, po_number, doc_ref, EDI_DocRef, EDI_DocDesc, gross_amount, EDI_VAT, EDI_EWT, netAmount, check_number, check_date, netPayable])
+        data.append([company_names[company_folder], payeeName, trans_code, EDI_TransType, po_number, doc_ref, gross_amount, discount, EDI_EWT, netAmount, check_number, check_date, netPayable])
 
     # Create DataFrame
-    df = pd.DataFrame(data, columns=['EDI_DocType', 'EDI_TransType', 'EDI_PORef', 'EDI_InvRef', 'EDI_DocRef', 'EDI_DocDesc', 'EDI_Gross', 'EDI_VAT', 'EDI_EWT', 'EDI_Net', 'EDI_RARef', 'EDI_RADate', 'EDI_RAAmt'])
+    df = pd.DataFrame(data, columns=['EDI_Customer', 'EDI_Company', 'EDI_DocType', 'EDI_TransType', 'EDI_PORef', 'EDI_InvRef', 'EDI_Gross', 'EDI_Discount', 'EDI_EWT', 'EDI_Net', 'EDI_RARef', 'EDI_RADate', 'EDI_RAAmt'])
 
     # Create Excel file path
     company_folder = os.path.basename(os.path.dirname(xml_file))
@@ -75,7 +87,7 @@ def main():
     outbound_folder = 'C:/Users/User/Documents/Project/rax_converter/SM_Group/Outbound'
     inbound_outbound_folder = 'C:/Users/User/Documents/Project/rax_converter/SM_Group/Inbound/Outbound'
     archive_folder = 'C:/Users/User/Documents/Project/rax_converter/SM_Group/Archive'
-    error_folder = 'C:/Users/User/Documents/Project/rax_converter/SM_Group/Error'
+    error_folder = 'C:/Users/User/Documents/Project/rax_converter/SM_Group'
 
     # Iterate over XML files in Inbound Folder
     for root_folder, dirs, files in os.walk(inbound_folder):
