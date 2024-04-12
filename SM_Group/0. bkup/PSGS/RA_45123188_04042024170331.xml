@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xml>
+<document>
+<header>
+<companyName><![CDATA[PASIG SUPERMARKET INC.]]></companyName>
+<DocumentType>Remittance Advice</DocumentType>
+<postDate><![CDATA[04/02/2024 20:30:09]]></postDate>
+<payeeName><![CDATA[BOX & BASICS DISTRIBUTION INC.]]></payeeName>
+<checkDate><![CDATA[04/03/2024]]></checkDate>
+<checkNumber><![CDATA[8700003817]]></checkNumber>
+<region><![CDATA[NCR]]></region>
+<amount>12,360.94</amount>
+</header>
+<body>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090036033</poNumber>
+<docRef>28948</docRef>
+<site>PSI FREE CHOICE MART</site>
+<grossAmount>6,907.85</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,907.85</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870360</poNumber>
+<docRef>28947</docRef>
+<site>PSI FREE CHOICE MART</site>
+<grossAmount>5,453.09</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,453.09</netAmount>
+</article>
+</body>
+<footer>
+<totalAmount>12,360.94</totalAmount>
+<ewtAmount>0.00</ewtAmount>
+<arItcc>0.00</arItcc>
+<netPayable>12,360.94</netPayable>
+<importantRemarks><![CDATA[Please review your Details of Payment immediately. Discrepancy noted should be reported within 60 days from credit date. Any request for reconciliation beyond this period shall not be given priority.]]></importantRemarks></footer>
+</document>
+</xml>

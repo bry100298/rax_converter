@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xml>
+<document>
+<header>
+<companyName><![CDATA[SUPER SHOPPING MARKET, INC.]]></companyName>
+<DocumentType>Remittance Advice</DocumentType>
+<postDate><![CDATA[04/02/2024 19:15:47]]></postDate>
+<payeeName><![CDATA[BOX & BASICS DISTRIBUTION INC.]]></payeeName>
+<checkDate><![CDATA[04/03/2024]]></checkDate>
+<checkNumber><![CDATA[8700001140]]></checkNumber>
+<region><![CDATA[NCR]]></region>
+<amount>94,958.32</amount>
+</header>
+<body>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058386</docRef>
+<site>SSM DECA MALL</site>
+<grossAmount>-16,800.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-16,800.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058391</docRef>
+<site>SSM THE VILLAGE SQUARE</site>
+<grossAmount>-16,800.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-16,800.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058370</docRef>
+<site>SSM CHERRY CONGRESSIONAL</site>
+<grossAmount>-16,800.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-16,800.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058378</docRef>
+<site>SSM FTI</site>
+<grossAmount>-16,800.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-16,800.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058382</docRef>
+<site>SSM SUN RESIDENCES</site>
+<grossAmount>-8,400.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-8,400.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058375</docRef>
+<site>SSM JAZZ RESIDENCES</site>
+<grossAmount>-11,200.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-11,200.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058394</docRef>
+<site>SSM ANTIPOLO</site>
+<grossAmount>-14,000.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-14,000.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058396</docRef>
+<site>SSM CAINTA</site>
+<grossAmount>-16,800.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-16,800.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058369</docRef>
+<site>SSM MONUMENTO</site>
+<grossAmount>-11,200.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-11,200.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058368</docRef>
+<site>SSM ALABANG ZAPOTE ROAD</site>
+<grossAmount>-11,200.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-11,200.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058367</docRef>
+<site>SSM SUCAT LOPEZ</site>
+<grossAmount>-16,800.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-16,800.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058365</docRef>
+<site>SSM NOVALICHES</site>
+<grossAmount>-11,200.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-11,200.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058364</docRef>
+<site>SSM ETON</site>
+<grossAmount>-14,000.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-14,000.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058385</docRef>
+<site>SSM FAIRVIEW</site>
+<grossAmount>-28,000.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-28,000.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058363</docRef>
+<site>SSM FAIRVIEW</site>
+<grossAmount>-19,600.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-19,600.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058360</docRef>
+<site>SSM MANDALUYONG</site>
+<grossAmount>-22,400.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-22,400.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058373</docRef>
+<site>SSM MANDALUYONG</site>
+<grossAmount>-28,000.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-28,000.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058358</docRef>
+<site>SSM MAKATI</site>
+<grossAmount>-14,000.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-14,000.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058377</docRef>
+<site>SSM CUBAO</site>
+<grossAmount>-14,000.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-14,000.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058357</docRef>
+<site>SSM LAS PIÃAS</site>
+<grossAmount>-14,000.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-14,000.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058356</docRef>
+<site>SSM TAYTAY</site>
+<grossAmount>-28,000.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-28,000.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058399</docRef>
+<site>SSM MUNTINLUPA</site>
+<grossAmount>-16,800.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-16,800.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058381</docRef>
+<site>SSM NORTH EDSA</site>
+<grossAmount>-16,800.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-16,800.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058372</docRef>
+<site>SSM PASIG</site>
+<grossAmount>-30,800.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-30,800.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058371</docRef>
+<site>SSM MALL OF ASIA</site>
+<grossAmount>-33,600.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-33,600.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058383</docRef>
+<site>SSM VALENZUELA</site>
+<grossAmount>-14,000.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-14,000.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058350</docRef>
+<site>SSM BICUTAN</site>
+<grossAmount>-14,000.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-14,000.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058384</docRef>
+<site>SSM BICUTAN</site>
+<grossAmount>-33,600.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-33,600.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058355</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-14,000.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-14,000.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058397</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-28,000.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-28,000.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058359</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-11,200.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-11,200.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058393</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-11,200.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-11,200.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058389</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-11,200.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-11,200.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058398</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-16,800.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-16,800.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058400</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-14,000.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-14,000.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058351</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-5,600.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-5,600.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089966343</poNumber>
+<docRef>276591</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>8,870.55</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,870.55</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090000140</poNumber>
+<docRef>276626</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>5,557.29</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,557.29</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090000142</poNumber>
+<docRef>28659</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>7,459.86</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,459.86</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089998032</poNumber>
+<docRef>276508</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>22,374.58</grossAmount>
+<discount>0.00</discount>
+<netAmount>22,374.58</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089298905</poNumber>
+<docRef>4120</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>4,136.49</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,136.49</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089638867</poNumber>
+<docRef>4123</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>2,634.05</grossAmount>
+<discount>0.00</discount>
+<netAmount>2,634.05</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089485281</poNumber>
+<docRef>4122</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>1,182.13</grossAmount>
+<discount>0.00</discount>
+<netAmount>1,182.13</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058376</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-11,200.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-11,200.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058390</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-16,800.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-16,800.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058362</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-28,000.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-28,000.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058387</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-11,200.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-11,200.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058388</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-22,400.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-22,400.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058352</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-8,400.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-8,400.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058349</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-16,800.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-16,800.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058392</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-14,000.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-14,000.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058361</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-28,000.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-28,000.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058354</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-11,200.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-11,200.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058353</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-8,400.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-8,400.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058380</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-14,000.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-14,000.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058374</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-28,000.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-28,000.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058395</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-14,000.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-14,000.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058366</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-16,800.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-16,800.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1022058379</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-11,200.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-11,200.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089639381</poNumber>
+<docRef>4121</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>7,431.06</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,431.06</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089995828</poNumber>
+<docRef>276572</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>1,281.22</grossAmount>
+<discount>0.00</discount>
+<netAmount>1,281.22</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089998044</poNumber>
+<docRef>276571</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>5,979.51</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,979.51</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089998053</poNumber>
+<docRef>276740</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>29,981.55</grossAmount>
+<discount>0.00</discount>
+<netAmount>29,981.55</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090000143</poNumber>
+<docRef>28995</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>3,910.09</grossAmount>
+<discount>0.00</discount>
+<netAmount>3,910.09</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089998046</poNumber>
+<docRef>276926</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>41,151.59</grossAmount>
+<discount>0.00</discount>
+<netAmount>41,151.59</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089802458</poNumber>
+<docRef>276925</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>4,260.61</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,260.61</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090049803</poNumber>
+<docRef>276071</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>10,916.79</grossAmount>
+<discount>0.00</discount>
+<netAmount>10,916.79</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090049813</poNumber>
+<docRef>28954</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>12,444.94</grossAmount>
+<discount>0.00</discount>
+<netAmount>12,444.94</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090063183</poNumber>
+<docRef>28962</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>11,962.92</grossAmount>
+<discount>0.00</discount>
+<netAmount>11,962.92</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090049801</poNumber>
+<docRef>29022</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>19,454.80</grossAmount>
+<discount>0.00</discount>
+<netAmount>19,454.80</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090049809</poNumber>
+<docRef>28888</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>10,803.33</grossAmount>
+<discount>0.00</discount>
+<netAmount>10,803.33</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090049815</poNumber>
+<docRef>29018</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>30,433.92</grossAmount>
+<discount>0.00</discount>
+<netAmount>30,433.92</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090063192</poNumber>
+<docRef>29058</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>8,230.41</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,230.41</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090063180</poNumber>
+<docRef>276077</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>12,826.67</grossAmount>
+<discount>0.00</discount>
+<netAmount>12,826.67</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090063179</poNumber>
+<docRef>28981</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>1,729.82</grossAmount>
+<discount>0.00</discount>
+<netAmount>1,729.82</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090063185</poNumber>
+<docRef>29052</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>13,817.29</grossAmount>
+<discount>0.00</discount>
+<netAmount>13,817.29</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090063181</poNumber>
+<docRef>275755</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>1,742.94</grossAmount>
+<discount>0.00</discount>
+<netAmount>1,742.94</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089850730</poNumber>
+<docRef>29050</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>11,361.60</grossAmount>
+<discount>0.00</discount>
+<netAmount>11,361.60</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090049805</poNumber>
+<docRef>29051</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>146,559.26</grossAmount>
+<discount>0.00</discount>
+<netAmount>146,559.26</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090049810</poNumber>
+<docRef>276127</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>16,771.05</grossAmount>
+<discount>0.00</discount>
+<netAmount>16,771.05</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090049797</poNumber>
+<docRef>29060</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>32,435.56</grossAmount>
+<discount>0.00</discount>
+<netAmount>32,435.56</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090063189</poNumber>
+<docRef>276995</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>32,572.09</grossAmount>
+<discount>0.00</discount>
+<netAmount>32,572.09</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089846322</poNumber>
+<docRef>276994</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>6,035.84</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,035.84</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090063188</poNumber>
+<docRef>276368</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>5,659.33</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,659.33</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090063191</poNumber>
+<docRef>276297</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>13,741.97</grossAmount>
+<discount>0.00</discount>
+<netAmount>13,741.97</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090049814</poNumber>
+<docRef>276143</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>13,930.30</grossAmount>
+<discount>0.00</discount>
+<netAmount>13,930.30</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090049794</poNumber>
+<docRef>28983</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>9,626.96</grossAmount>
+<discount>0.00</discount>
+<netAmount>9,626.96</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090049812</poNumber>
+<docRef>29059</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>22,205.38</grossAmount>
+<discount>0.00</discount>
+<netAmount>22,205.38</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322426648</poNumber>
+<docRef></docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-42.35</grossAmount>
+<discount>0.00</discount>
+<netAmount>-42.35</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089998029</poNumber>
+<docRef>28925</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>13,327.71</grossAmount>
+<discount>0.00</discount>
+<netAmount>13,327.71</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089966346</poNumber>
+<docRef>28636</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>7,592.62</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,592.62</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090049806</poNumber>
+<docRef>29039</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>11,772.13</grossAmount>
+<discount>0.00</discount>
+<netAmount>11,772.13</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090049807</poNumber>
+<docRef>276214</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>21,678.42</grossAmount>
+<discount>0.00</discount>
+<netAmount>21,678.42</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089639402</poNumber>
+<docRef>5943</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>3,294.57</grossAmount>
+<discount>0.00</discount>
+<netAmount>3,294.57</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089537159</poNumber>
+<docRef>5945</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>8,060.57</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,060.57</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089719600</poNumber>
+<docRef>5944</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>9,605.17</grossAmount>
+<discount>0.00</discount>
+<netAmount>9,605.17</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089639390</poNumber>
+<docRef>4128</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>1,683.88</grossAmount>
+<discount>0.00</discount>
+<netAmount>1,683.88</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089638869</poNumber>
+<docRef>4127</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>2,220.81</grossAmount>
+<discount>0.00</discount>
+<netAmount>2,220.81</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322428143</poNumber>
+<docRef></docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>-232.35</grossAmount>
+<discount>0.00</discount>
+<netAmount>-232.35</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089849173</poNumber>
+<docRef>6152</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>5,099.36</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,099.36</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089846216</poNumber>
+<docRef>6178</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>7,020.03</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,020.03</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089846212</poNumber>
+<docRef>4261</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>9,771.97</grossAmount>
+<discount>0.00</discount>
+<netAmount>9,771.97</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089966345</poNumber>
+<docRef>28560</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>14,474.42</grossAmount>
+<discount>0.00</discount>
+<netAmount>14,474.42</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089995830</poNumber>
+<docRef>276690</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>8,004.79</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,004.79</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089998051</poNumber>
+<docRef>276691</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>23,358.64</grossAmount>
+<discount>0.00</discount>
+<netAmount>23,358.64</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089998035</poNumber>
+<docRef>28843</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>22,351.41</grossAmount>
+<discount>0.00</discount>
+<netAmount>22,351.41</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089997353</poNumber>
+<docRef>28825</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>7,341.97</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,341.97</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089997357</poNumber>
+<docRef>276837</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>18,848.38</grossAmount>
+<discount>0.00</discount>
+<netAmount>18,848.38</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089802457</poNumber>
+<docRef>276552</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>9,586.35</grossAmount>
+<discount>0.00</discount>
+<netAmount>9,586.35</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089998041</poNumber>
+<docRef>276553</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>75,545.43</grossAmount>
+<discount>0.00</discount>
+<netAmount>75,545.43</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089998026</poNumber>
+<docRef>276551</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>23,045.71</grossAmount>
+<discount>0.00</discount>
+<netAmount>23,045.71</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089997348</poNumber>
+<docRef>275642</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>19,790.03</grossAmount>
+<discount>0.00</discount>
+<netAmount>19,790.03</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090000141</poNumber>
+<docRef>28785</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>5,086.77</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,086.77</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089998024</poNumber>
+<docRef>276549</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>11,913.98</grossAmount>
+<discount>0.00</discount>
+<netAmount>11,913.98</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089997355</poNumber>
+<docRef>276689</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>7,658.61</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,658.61</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089998039</poNumber>
+<docRef>276885</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>4,115.33</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,115.33</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089997351</poNumber>
+<docRef>28818</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>19,579.93</grossAmount>
+<discount>0.00</discount>
+<netAmount>19,579.93</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089997350</poNumber>
+<docRef>28725</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>8,482.15</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,482.15</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089995825</poNumber>
+<docRef>276550</docRef>
+<site>SSM HEADOFFICE</site>
+<grossAmount>5,448.13</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,448.13</netAmount>
+</article>
+</body>
+<footer>
+<totalAmount>94,958.32</totalAmount>
+<ewtAmount>0.00</ewtAmount>
+<arItcc>0.00</arItcc>
+<netPayable>94,958.32</netPayable>
+<importantRemarks><![CDATA[Please review your Details of Payment immediately. Discrepancy noted should be reported within 60 days from credit date. Any request for reconciliation beyond this period shall not be given priority.]]></importantRemarks></footer>
+</document>
+</xml>

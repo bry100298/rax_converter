@@ -1,0 +1,2930 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xml>
+<document>
+<header>
+<companyName><![CDATA[SANFORD MARKETING CORPORATION]]></companyName>
+<DocumentType>Remittance Advice</DocumentType>
+<postDate><![CDATA[04/02/2024 20:02:37]]></postDate>
+<payeeName><![CDATA[BOX & BASICS DISTRIBUTION INC.]]></payeeName>
+<checkDate><![CDATA[04/03/2024]]></checkDate>
+<checkNumber><![CDATA[8700018838]]></checkNumber>
+<region><![CDATA[NCR-SVMR]]></region>
+<amount>1,637,169.99</amount>
+</header>
+<body>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870367</poNumber>
+<docRef>28159</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>10,438.66</grossAmount>
+<discount>0.00</discount>
+<netAmount>10,438.66</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089821440</poNumber>
+<docRef>28158</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>8,384.28</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,384.28</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870371</poNumber>
+<docRef>28258</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>8,953.51</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,953.51</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089833125</poNumber>
+<docRef>6470</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,284.89</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,284.89</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089821441</poNumber>
+<docRef>28034</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>14,641.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>14,641.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870372</poNumber>
+<docRef>28035</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>8,656.88</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,656.88</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868100</poNumber>
+<docRef>275467</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,816.61</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,816.61</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868174</poNumber>
+<docRef>275438</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,375.99</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,375.99</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868056</poNumber>
+<docRef>275224</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,595.03</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,595.03</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870381</poNumber>
+<docRef>28144</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>11,287.09</grossAmount>
+<discount>0.00</discount>
+<netAmount>11,287.09</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870389</poNumber>
+<docRef>27972</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>11,974.09</grossAmount>
+<discount>0.00</discount>
+<netAmount>11,974.09</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089821443</poNumber>
+<docRef>27971</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>23,947.42</grossAmount>
+<discount>0.00</discount>
+<netAmount>23,947.42</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089892804</poNumber>
+<docRef>6471</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,753.46</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,753.46</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870382</poNumber>
+<docRef>28069</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,965.46</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,965.46</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089965180</poNumber>
+<docRef>27959</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,147.92</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,147.92</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089974684</poNumber>
+<docRef>27958</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,636.88</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,636.88</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870391</poNumber>
+<docRef>27943</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>17,776.29</grossAmount>
+<discount>0.00</discount>
+<netAmount>17,776.29</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089820084</poNumber>
+<docRef>27942</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,731.03</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,731.03</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089790280</poNumber>
+<docRef>6495</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,636.47</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,636.47</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089883655</poNumber>
+<docRef>275223</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,379.36</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,379.36</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870396</poNumber>
+<docRef>27969</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,702.86</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,702.86</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089912304</poNumber>
+<docRef>27775</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>14,361.21</grossAmount>
+<discount>0.00</discount>
+<netAmount>14,361.21</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870358</poNumber>
+<docRef>27766</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>7,612.75</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,612.75</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089790273</poNumber>
+<docRef>6416</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,666.18</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,666.18</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089833132</poNumber>
+<docRef>6417</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,443.41</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,443.41</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089786705</poNumber>
+<docRef>27755</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,242.40</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,242.40</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089786571</poNumber>
+<docRef>6421</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>2,525.82</grossAmount>
+<discount>0.00</discount>
+<netAmount>2,525.82</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089790279</poNumber>
+<docRef>6420</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,009.27</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,009.27</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089789882</poNumber>
+<docRef>6506</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,761.48</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,761.48</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089833144</poNumber>
+<docRef>6505</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,232.85</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,232.85</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870420</poNumber>
+<docRef>27612</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,292.98</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,292.98</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089887687</poNumber>
+<docRef>27786</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>7,361.35</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,361.35</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870338</poNumber>
+<docRef>27785</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,616.16</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,616.16</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089658259</poNumber>
+<docRef>6316</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>10,468.10</grossAmount>
+<discount>0.00</discount>
+<netAmount>10,468.10</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089843474</poNumber>
+<docRef>6315</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>3,367.75</grossAmount>
+<discount>0.00</discount>
+<netAmount>3,367.75</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089846803</poNumber>
+<docRef>6209</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>3,367.75</grossAmount>
+<discount>0.00</discount>
+<netAmount>3,367.75</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089750730</poNumber>
+<docRef>6195</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>1,001.85</grossAmount>
+<discount>0.00</discount>
+<netAmount>1,001.85</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089790282</poNumber>
+<docRef>6205</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>10,667.17</grossAmount>
+<discount>0.00</discount>
+<netAmount>10,667.17</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870351</poNumber>
+<docRef>27996</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>13,528.41</grossAmount>
+<discount>0.00</discount>
+<netAmount>13,528.41</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868074</poNumber>
+<docRef>275711</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,989.50</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,989.50</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868212</poNumber>
+<docRef>275857</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>11,105.93</grossAmount>
+<discount>0.00</discount>
+<netAmount>11,105.93</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089964940</poNumber>
+<docRef>275860</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,305.98</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,305.98</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870342</poNumber>
+<docRef>28386</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>13,875.64</grossAmount>
+<discount>0.00</discount>
+<netAmount>13,875.64</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952783</poNumber>
+<docRef>28388</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>1,420.21</grossAmount>
+<discount>0.00</discount>
+<netAmount>1,420.21</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868214</poNumber>
+<docRef>275695</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,431.47</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,431.47</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870352</poNumber>
+<docRef>275714</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>9,322.08</grossAmount>
+<discount>0.00</discount>
+<netAmount>9,322.08</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870403</poNumber>
+<docRef>28352</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>21,105.64</grossAmount>
+<discount>0.00</discount>
+<netAmount>21,105.64</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952786</poNumber>
+<docRef>28436</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>2,130.30</grossAmount>
+<discount>0.00</discount>
+<netAmount>2,130.30</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868140</poNumber>
+<docRef>275947</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>12,323.38</grossAmount>
+<discount>0.00</discount>
+<netAmount>12,323.38</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868119</poNumber>
+<docRef>275742</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>14,591.44</grossAmount>
+<discount>0.00</discount>
+<netAmount>14,591.44</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868173</poNumber>
+<docRef>276605</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,146.62</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,146.62</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870359</poNumber>
+<docRef>28284</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>10,112.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>10,112.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952803</poNumber>
+<docRef>28285</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>2,130.30</grossAmount>
+<discount>0.00</discount>
+<netAmount>2,130.30</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952810</poNumber>
+<docRef>275896</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>2,130.30</grossAmount>
+<discount>0.00</discount>
+<netAmount>2,130.30</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868077</poNumber>
+<docRef>275549</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>8,497.55</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,497.55</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089881149</poNumber>
+<docRef>275862</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>9,055.23</grossAmount>
+<discount>0.00</discount>
+<netAmount>9,055.23</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089973473</poNumber>
+<docRef>275606</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,448.41</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,448.41</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868124</poNumber>
+<docRef>275607</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>17,053.30</grossAmount>
+<discount>0.00</discount>
+<netAmount>17,053.30</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870356</poNumber>
+<docRef>28326</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>14,376.15</grossAmount>
+<discount>0.00</discount>
+<netAmount>14,376.15</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868129</poNumber>
+<docRef>275397</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>7,656.71</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,656.71</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868125</poNumber>
+<docRef>275951</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,395.46</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,395.46</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089851826</poNumber>
+<docRef>28260</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>3,545.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>3,545.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870369</poNumber>
+<docRef>28259</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>7,584.56</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,584.56</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089851826</poNumber>
+<docRef>28260</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>10,846.77</grossAmount>
+<discount>0.00</discount>
+<netAmount>10,846.77</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089963718</poNumber>
+<docRef>28261</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,242.40</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,242.40</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952823</poNumber>
+<docRef>28169</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>2,130.30</grossAmount>
+<discount>0.00</discount>
+<netAmount>2,130.30</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868186</poNumber>
+<docRef>275668</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,377.20</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,377.20</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089883663</poNumber>
+<docRef>275669</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>8,862.73</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,862.73</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089820081</poNumber>
+<docRef>28041</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>8,760.06</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,760.06</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089790274</poNumber>
+<docRef>6474</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>18,348.08</grossAmount>
+<discount>0.00</discount>
+<netAmount>18,348.08</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870370</poNumber>
+<docRef>28042</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>15,117.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>15,117.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868087</poNumber>
+<docRef>275768</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,633.54</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,633.54</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089974696</poNumber>
+<docRef>28256</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,189.45</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,189.45</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089965183</poNumber>
+<docRef>28257</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,147.92</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,147.92</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870414</poNumber>
+<docRef>28255</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>11,434.33</grossAmount>
+<discount>0.00</discount>
+<netAmount>11,434.33</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868144</poNumber>
+<docRef>275512</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>12,099.67</grossAmount>
+<discount>0.00</discount>
+<netAmount>12,099.67</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089820078</poNumber>
+<docRef>27995</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,724.55</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,724.55</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089095830</poNumber>
+<docRef>4102</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>32,775.93</grossAmount>
+<discount>0.00</discount>
+<netAmount>32,775.93</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089295018</poNumber>
+<docRef>4101</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,595.16</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,595.16</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089398226</poNumber>
+<docRef>4099</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,586.18</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,586.18</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307158</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-3,584.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-3,584.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307154</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-1,792.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-1,792.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307201</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-1,792.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-1,792.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307200</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-4,480.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-4,480.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307191</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-2,240.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-2,240.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307189</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-8,960.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-8,960.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307169</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-7,168.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-7,168.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307184</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-5,376.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-5,376.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307182</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-5,376.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-5,376.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307180</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-5,376.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-5,376.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307178</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-5,376.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-5,376.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307176</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-8,960.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-8,960.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307175</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-5,376.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-5,376.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307171</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-14,336.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-14,336.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307173</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-5,376.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-5,376.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307167</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-3,584.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-3,584.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307166</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-3,584.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-3,584.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307163</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-3,584.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-3,584.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307156</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-3,584.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-3,584.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307155</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-3,584.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-3,584.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307199</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-2,240.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-2,240.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307197</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-4,480.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-4,480.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307196</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-2,016.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-2,016.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307168</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-5,152.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-5,152.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307177</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-1,792.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-1,792.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307195</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-3,584.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-3,584.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307194</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-3,584.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-3,584.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307193</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-3,584.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-3,584.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307192</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-7,168.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-7,168.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307190</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-4,256.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-4,256.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307187</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-7,168.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-7,168.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307185</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-7,168.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-7,168.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307183</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-8,960.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-8,960.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307181</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-8,960.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-8,960.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307179</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-4,704.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-4,704.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1088947177</poNumber>
+<docRef>4100</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>7,231.09</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,231.09</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089772590</poNumber>
+<docRef>27701</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,266.20</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,266.20</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089192034</poNumber>
+<docRef>3739</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,317.53</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,317.53</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089227416</poNumber>
+<docRef>3738</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,011.42</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,011.42</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089548894</poNumber>
+<docRef>3729</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>2,456.98</grossAmount>
+<discount>0.00</discount>
+<netAmount>2,456.98</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089227419</poNumber>
+<docRef>3728</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>1,922.43</grossAmount>
+<discount>0.00</discount>
+<netAmount>1,922.43</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089918990</poNumber>
+<docRef>6065</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>12,351.63</grossAmount>
+<discount>0.00</discount>
+<netAmount>12,351.63</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089918980</poNumber>
+<docRef>6066</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>841.94</grossAmount>
+<discount>0.00</discount>
+<netAmount>841.94</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089919005</poNumber>
+<docRef>6067</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>13,300.45</grossAmount>
+<discount>0.00</discount>
+<netAmount>13,300.45</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089398228</poNumber>
+<docRef>4262</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>10,314.59</grossAmount>
+<discount>0.00</discount>
+<netAmount>10,314.59</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089192040</poNumber>
+<docRef>4205</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,658.46</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,658.46</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089398227</poNumber>
+<docRef>4207</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>16,721.28</grossAmount>
+<discount>0.00</discount>
+<netAmount>16,721.28</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089295019</poNumber>
+<docRef>4208</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>30,640.20</grossAmount>
+<discount>0.00</discount>
+<netAmount>30,640.20</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089095831</poNumber>
+<docRef>4206</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>35,484.85</grossAmount>
+<discount>0.00</discount>
+<netAmount>35,484.85</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089771773</poNumber>
+<docRef>3722</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,305.98</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,305.98</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089750740</poNumber>
+<docRef>3723</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,301.34</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,301.34</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089750737</poNumber>
+<docRef>3712</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,872.65</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,872.65</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089710522</poNumber>
+<docRef>5979</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>7,577.45</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,577.45</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089694583</poNumber>
+<docRef>5980</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>29,886.91</grossAmount>
+<discount>0.00</discount>
+<netAmount>29,886.91</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089750736</poNumber>
+<docRef>3700</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,420.76</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,420.76</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089548913</poNumber>
+<docRef>5973</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,734.47</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,734.47</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089658255</poNumber>
+<docRef>5794</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>7,378.33</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,378.33</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089548890</poNumber>
+<docRef>5793</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>8,236.50</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,236.50</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089548899</poNumber>
+<docRef>5792</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,868.72</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,868.72</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089658256</poNumber>
+<docRef>4145</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>2,775.77</grossAmount>
+<discount>0.00</discount>
+<netAmount>2,775.77</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089548888</poNumber>
+<docRef>5904</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,689.23</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,689.23</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089548891</poNumber>
+<docRef>5884</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>7,758.32</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,758.32</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089658257</poNumber>
+<docRef>4142</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>3,969.94</grossAmount>
+<discount>0.00</discount>
+<netAmount>3,969.94</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089548896</poNumber>
+<docRef>4143</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,554.98</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,554.98</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089658254</poNumber>
+<docRef>5834</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>7,368.70</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,368.70</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089548883</poNumber>
+<docRef>5833</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>8,309.01</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,309.01</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089548902</poNumber>
+<docRef>5835</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,966.38</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,966.38</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089658261</poNumber>
+<docRef>4144</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,194.19</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,194.19</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089548881</poNumber>
+<docRef>5888</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,174.77</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,174.77</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089686501</poNumber>
+<docRef>4147</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,369.56</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,369.56</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089605309</poNumber>
+<docRef>4146</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,242.40</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,242.40</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089385084</poNumber>
+<docRef>4116</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,003.37</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,003.37</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1088996307</poNumber>
+<docRef>4114</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,640.70</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,640.70</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089095832</poNumber>
+<docRef>4115</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>25,556.74</grossAmount>
+<discount>0.00</discount>
+<netAmount>25,556.74</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952781</poNumber>
+<docRef>276014</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,422.60</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,422.60</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870388</poNumber>
+<docRef>29053</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>10,768.22</grossAmount>
+<discount>0.00</discount>
+<netAmount>10,768.22</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870339</poNumber>
+<docRef>28963</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>15,021.93</grossAmount>
+<discount>0.00</discount>
+<netAmount>15,021.93</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090008087</poNumber>
+<docRef>28964</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>16,431.32</grossAmount>
+<discount>0.00</discount>
+<netAmount>16,431.32</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089963717</poNumber>
+<docRef>276768</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,464.04</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,464.04</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870362</poNumber>
+<docRef>276767</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>20,353.72</grossAmount>
+<discount>0.00</discount>
+<netAmount>20,353.72</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089973446</poNumber>
+<docRef>28875</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>18,070.68</grossAmount>
+<discount>0.00</discount>
+<netAmount>18,070.68</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952790</poNumber>
+<docRef>28878</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>2,840.40</grossAmount>
+<discount>0.00</discount>
+<netAmount>2,840.40</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870344</poNumber>
+<docRef>28876</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>8,825.05</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,825.05</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089971984</poNumber>
+<docRef>276286</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,474.16</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,474.16</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952792</poNumber>
+<docRef>276287</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,842.79</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,842.79</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868071</poNumber>
+<docRef>276285</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,557.97</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,557.97</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868192</poNumber>
+<docRef>276067</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,704.88</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,704.88</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868190</poNumber>
+<docRef>276785</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,534.82</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,534.82</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952821</poNumber>
+<docRef>276786</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,132.69</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,132.69</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090030872</poNumber>
+<docRef>276279</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,489.08</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,489.08</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870413</poNumber>
+<docRef>276278</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>9,135.14</grossAmount>
+<discount>0.00</discount>
+<netAmount>9,135.14</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868135</poNumber>
+<docRef>276707</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>1,442.56</grossAmount>
+<discount>0.00</discount>
+<netAmount>1,442.56</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870383</poNumber>
+<docRef>28860</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,050.03</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,050.03</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870386</poNumber>
+<docRef>28921</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,296.55</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,296.55</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952800</poNumber>
+<docRef>28740</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>1,420.21</grossAmount>
+<discount>0.00</discount>
+<netAmount>1,420.21</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089974686</poNumber>
+<docRef>28741</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>7,197.49</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,197.49</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870376</poNumber>
+<docRef>276886</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>13,026.30</grossAmount>
+<discount>0.00</discount>
+<netAmount>13,026.30</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089973479</poNumber>
+<docRef>275605</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>3,921.19</grossAmount>
+<discount>0.00</discount>
+<netAmount>3,921.19</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870357</poNumber>
+<docRef>28730</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>7,933.21</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,933.21</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952802</poNumber>
+<docRef>28729</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>1,420.21</grossAmount>
+<discount>0.00</discount>
+<netAmount>1,420.21</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090030873</poNumber>
+<docRef>28722</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,508.35</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,508.35</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870415</poNumber>
+<docRef>28721</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,797.33</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,797.33</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870353</poNumber>
+<docRef>28736</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>9,095.43</grossAmount>
+<discount>0.00</discount>
+<netAmount>9,095.43</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952797</poNumber>
+<docRef>276704</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,132.69</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,132.69</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870340</poNumber>
+<docRef>276898</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,580.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,580.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089940198</poNumber>
+<docRef>276696</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>11,004.46</grossAmount>
+<discount>0.00</discount>
+<netAmount>11,004.46</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870393</poNumber>
+<docRef>28702</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>17,207.42</grossAmount>
+<discount>0.00</discount>
+<netAmount>17,207.42</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870341</poNumber>
+<docRef>28750</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>12,880.92</grossAmount>
+<discount>0.00</discount>
+<netAmount>12,880.92</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089912303</poNumber>
+<docRef>28751</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>8,022.54</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,022.54</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952782</poNumber>
+<docRef>28752</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>1,420.21</grossAmount>
+<discount>0.00</discount>
+<netAmount>1,420.21</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952816</poNumber>
+<docRef>275645</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,777.64</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,777.64</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322495432</poNumber>
+<docRef></docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-121.80</grossAmount>
+<discount>0.00</discount>
+<netAmount>-121.80</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307161</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-2,240.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-2,240.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322500402</poNumber>
+<docRef></docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-443.13</grossAmount>
+<discount>0.00</discount>
+<netAmount>-443.13</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322486912</poNumber>
+<docRef></docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-68.03</grossAmount>
+<discount>0.00</discount>
+<netAmount>-68.03</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322486867</poNumber>
+<docRef></docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-369.57</grossAmount>
+<discount>0.00</discount>
+<netAmount>-369.57</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322486152</poNumber>
+<docRef></docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-579.15</grossAmount>
+<discount>0.00</discount>
+<netAmount>-579.15</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322444138</poNumber>
+<docRef></docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-452.77</grossAmount>
+<discount>0.00</discount>
+<netAmount>-452.77</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322446781</poNumber>
+<docRef></docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-3,764.81</grossAmount>
+<discount>0.00</discount>
+<netAmount>-3,764.81</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322431413</poNumber>
+<docRef></docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-701.91</grossAmount>
+<discount>0.00</discount>
+<netAmount>-701.91</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322427257</poNumber>
+<docRef></docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-1,994.08</grossAmount>
+<discount>0.00</discount>
+<netAmount>-1,994.08</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322427463</poNumber>
+<docRef></docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-656.18</grossAmount>
+<discount>0.00</discount>
+<netAmount>-656.18</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322396391</poNumber>
+<docRef></docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-666.81</grossAmount>
+<discount>0.00</discount>
+<netAmount>-666.81</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322385331</poNumber>
+<docRef></docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-4,876.17</grossAmount>
+<discount>0.00</discount>
+<netAmount>-4,876.17</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322417118</poNumber>
+<docRef></docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-423.76</grossAmount>
+<discount>0.00</discount>
+<netAmount>-423.76</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307162</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-2,240.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-2,240.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307165</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-1,568.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-1,568.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322432591</poNumber>
+<docRef></docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-182.87</grossAmount>
+<discount>0.00</discount>
+<netAmount>-182.87</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322413453</poNumber>
+<docRef></docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>-37.21</grossAmount>
+<discount>0.00</discount>
+<netAmount>-37.21</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090044812</poNumber>
+<docRef>276382</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>15,275.37</grossAmount>
+<discount>0.00</discount>
+<netAmount>15,275.37</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090044117</poNumber>
+<docRef>276219</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,946.45</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,946.45</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090032293</poNumber>
+<docRef>276306</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,527.61</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,527.61</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090030869</poNumber>
+<docRef>276035</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,356.05</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,356.05</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952831</poNumber>
+<docRef>276221</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,487.74</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,487.74</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952812</poNumber>
+<docRef>276222</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,132.69</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,132.69</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090005605</poNumber>
+<docRef>276983</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,536.94</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,536.94</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868105</poNumber>
+<docRef>276982</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>8,766.95</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,766.95</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870401</poNumber>
+<docRef>28968</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,761.32</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,761.32</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090005604</poNumber>
+<docRef>277011</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>15,480.07</grossAmount>
+<discount>0.00</discount>
+<netAmount>15,480.07</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089994448</poNumber>
+<docRef>277010</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,084.32</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,084.32</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868064</poNumber>
+<docRef>277009</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,838.08</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,838.08</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870387</poNumber>
+<docRef>28872</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>7,433.10</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,433.10</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090032295</poNumber>
+<docRef>28873</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,469.80</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,469.80</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090044816</poNumber>
+<docRef>28874</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>10,698.22</grossAmount>
+<discount>0.00</discount>
+<netAmount>10,698.22</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090032498</poNumber>
+<docRef>29055</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,527.61</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,527.61</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090044133</poNumber>
+<docRef>29054</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>8,515.75</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,515.75</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868054</poNumber>
+<docRef>276012</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,674.13</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,674.13</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089965179</poNumber>
+<docRef>276013</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,527.61</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,527.61</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089940199</poNumber>
+<docRef>275644</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,281.43</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,281.43</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870406</poNumber>
+<docRef>276673</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,943.68</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,943.68</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868068</poNumber>
+<docRef>276807</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,605.03</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,605.03</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089973449</poNumber>
+<docRef>276806</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>944.05</grossAmount>
+<discount>0.00</discount>
+<netAmount>944.05</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868219</poNumber>
+<docRef>275823</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>7,741.88</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,741.88</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870354</poNumber>
+<docRef>28517</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,062.87</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,062.87</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089985351</poNumber>
+<docRef>28514</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,338.66</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,338.66</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952798</poNumber>
+<docRef>28512</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>2,130.30</grossAmount>
+<discount>0.00</discount>
+<netAmount>2,130.30</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089965182</poNumber>
+<docRef>275824</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,084.32</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,084.32</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952833</poNumber>
+<docRef>275825</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>2,130.30</grossAmount>
+<discount>0.00</discount>
+<netAmount>2,130.30</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868198</poNumber>
+<docRef>275618</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>12,247.55</grossAmount>
+<discount>0.00</discount>
+<netAmount>12,247.55</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089940202</poNumber>
+<docRef>275390</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,317.53</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,317.53</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868208</poNumber>
+<docRef>275389</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>16,493.29</grossAmount>
+<discount>0.00</discount>
+<netAmount>16,493.29</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089973452</poNumber>
+<docRef>275859</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>8,498.59</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,498.59</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868221</poNumber>
+<docRef>275975</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,509.06</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,509.06</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952834</poNumber>
+<docRef>275976</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>710.10</grossAmount>
+<discount>0.00</discount>
+<netAmount>710.10</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868058</poNumber>
+<docRef>275850</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,269.36</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,269.36</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868108</poNumber>
+<docRef>275539</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>8,029.53</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,029.53</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870412</poNumber>
+<docRef>276622</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>7,015.83</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,015.83</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089965181</poNumber>
+<docRef>276623</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,147.92</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,147.92</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868170</poNumber>
+<docRef>275918</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>8,959.25</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,959.25</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868111</poNumber>
+<docRef>275855</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>13,309.88</grossAmount>
+<discount>0.00</discount>
+<netAmount>13,309.88</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952787</poNumber>
+<docRef>275955</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>1,420.21</grossAmount>
+<discount>0.00</discount>
+<netAmount>1,420.21</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868127</poNumber>
+<docRef>275889</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,912.93</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,912.93</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868047</poNumber>
+<docRef>276544</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>11,349.95</grossAmount>
+<discount>0.00</discount>
+<netAmount>11,349.95</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868225</poNumber>
+<docRef>275967</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,392.23</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,392.23</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870385</poNumber>
+<docRef>275814</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>7,116.70</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,116.70</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089881151</poNumber>
+<docRef>28435</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,464.04</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,464.04</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868062</poNumber>
+<docRef>275848</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>8,680.40</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,680.40</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090032292</poNumber>
+<docRef>28450</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,394.60</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,394.60</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870337</poNumber>
+<docRef>28518</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>12,204.98</grossAmount>
+<discount>0.00</discount>
+<netAmount>12,204.98</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089833148</poNumber>
+<docRef>6613</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,281.22</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,281.22</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089939086</poNumber>
+<docRef>6615</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,203.79</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,203.79</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089882829</poNumber>
+<docRef>275830</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,527.61</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,527.61</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870409</poNumber>
+<docRef>28344</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,949.12</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,949.12</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089913310</poNumber>
+<docRef>28345</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,527.61</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,527.61</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089941494</poNumber>
+<docRef>28346</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,826.24</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,826.24</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089963719</poNumber>
+<docRef>6614</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>1,683.88</grossAmount>
+<discount>0.00</discount>
+<netAmount>1,683.88</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952794</poNumber>
+<docRef>28835</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>1,775.25</grossAmount>
+<discount>0.00</discount>
+<netAmount>1,775.25</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870350</poNumber>
+<docRef>28836</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,499.58</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,499.58</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952780</poNumber>
+<docRef>28920</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>2,130.30</grossAmount>
+<discount>0.00</discount>
+<netAmount>2,130.30</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870392</poNumber>
+<docRef>276708</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,848.01</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,848.01</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089566398</poNumber>
+<docRef>276709</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>8,004.79</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,004.79</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089941280</poNumber>
+<docRef>28731</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,753.46</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,753.46</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089913307</poNumber>
+<docRef>28733</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,527.61</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,527.61</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952791</poNumber>
+<docRef>28734</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>1,420.21</grossAmount>
+<discount>0.00</discount>
+<netAmount>1,420.21</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870345</poNumber>
+<docRef>28732</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>13,664.97</grossAmount>
+<discount>0.00</discount>
+<netAmount>13,664.97</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870410</poNumber>
+<docRef>275641</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>8,327.20</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,327.20</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089972139</poNumber>
+<docRef>275640</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>2,875.54</grossAmount>
+<discount>0.00</discount>
+<netAmount>2,875.54</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868163</poNumber>
+<docRef>275994</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,572.71</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,572.71</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090030867</poNumber>
+<docRef>28844</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,469.80</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,469.80</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870411</poNumber>
+<docRef>28735</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,286.74</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,286.74</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870347</poNumber>
+<docRef>28859</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>4,971.61</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,971.61</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870375</poNumber>
+<docRef>276562</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>8,824.19</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,824.19</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870377</poNumber>
+<docRef>276818</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>11,284.06</grossAmount>
+<discount>0.00</discount>
+<netAmount>11,284.06</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868134</poNumber>
+<docRef>275602</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,965.17</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,965.17</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089973475</poNumber>
+<docRef>275603</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,350.23</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,350.23</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868122</poNumber>
+<docRef>275993</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>13,239.41</grossAmount>
+<discount>0.00</discount>
+<netAmount>13,239.41</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952779</poNumber>
+<docRef>275720</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>2,485.35</grossAmount>
+<discount>0.00</discount>
+<netAmount>2,485.35</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868045</poNumber>
+<docRef>275719</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>8,044.26</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,044.26</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952784</poNumber>
+<docRef>275532</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>2,130.30</grossAmount>
+<discount>0.00</discount>
+<netAmount>2,130.30</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868096</poNumber>
+<docRef>276675</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>9,007.92</grossAmount>
+<discount>0.00</discount>
+<netAmount>9,007.92</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868116</poNumber>
+<docRef>275858</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>11,539.77</grossAmount>
+<discount>0.00</discount>
+<netAmount>11,539.77</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089994323</poNumber>
+<docRef>275861</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,147.92</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,147.92</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952805</poNumber>
+<docRef>276674</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>2,130.30</grossAmount>
+<discount>0.00</discount>
+<netAmount>2,130.30</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089973469</poNumber>
+<docRef>275847</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,027.64</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,027.64</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868085</poNumber>
+<docRef>275846</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,950.99</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,950.99</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089973465</poNumber>
+<docRef>275995</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>8,767.08</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,767.08</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868177</poNumber>
+<docRef>276509</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,693.75</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,693.75</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868164</poNumber>
+<docRef>275849</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,946.41</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,946.41</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089940200</poNumber>
+<docRef>275851</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>5,317.53</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,317.53</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868194</poNumber>
+<docRef>275604</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>6,739.49</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,739.49</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870402</poNumber>
+<docRef>275458</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>8,971.88</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,971.88</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089566406</poNumber>
+<docRef>275950</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>8,004.79</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,004.79</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952811</poNumber>
+<docRef>275996</docRef>
+<site>SMCo HEADOFFICE</site>
+<grossAmount>2,130.30</grossAmount>
+<discount>0.00</discount>
+<netAmount>2,130.30</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307160</docRef>
+<site>SMCo PRIMARK CAINTA RIZAL</site>
+<grossAmount>-1,792.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-1,792.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307159</docRef>
+<site>SMCo PRIMARK DEPARO</site>
+<grossAmount>-1,792.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-1,792.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307164</docRef>
+<site>SMCo ONE MALL VALENZUELA</site>
+<grossAmount>-1,792.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-1,792.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322474221</poNumber>
+<docRef></docRef>
+<site>SMCo ONE MALL VALENZUELA</site>
+<grossAmount>-313.82</grossAmount>
+<discount>0.00</discount>
+<netAmount>-313.82</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307198</docRef>
+<site>SMCo BAGBAGUIN CALOOCAN</site>
+<grossAmount>-2,240.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-2,240.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322436209</poNumber>
+<docRef></docRef>
+<site>SMCo BAGBAGUIN CALOOCAN</site>
+<grossAmount>-39.19</grossAmount>
+<discount>0.00</discount>
+<netAmount>-39.19</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307153</docRef>
+<site>SMCo GREEN RESIDENCE</site>
+<grossAmount>-2,240.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-2,240.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307188</docRef>
+<site>SMCo MPLACE SOUTH TRIANGLE RES</site>
+<grossAmount>-2,240.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-2,240.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322379992</poNumber>
+<docRef></docRef>
+<site>SMCo ANGONO 2</site>
+<grossAmount>-4,171.34</grossAmount>
+<discount>0.00</discount>
+<netAmount>-4,171.34</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322476157</poNumber>
+<docRef></docRef>
+<site>SMCo FRANCIS MARKET</site>
+<grossAmount>-212.36</grossAmount>
+<discount>0.00</discount>
+<netAmount>-212.36</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322405562</poNumber>
+<docRef></docRef>
+<site>SMCo LIGHT RESIDENCES</site>
+<grossAmount>-163.63</grossAmount>
+<discount>0.00</discount>
+<netAmount>-163.63</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322419354</poNumber>
+<docRef></docRef>
+<site>SMCo LIGHT RESIDENCES</site>
+<grossAmount>-145.66</grossAmount>
+<discount>0.00</discount>
+<netAmount>-145.66</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322476591</poNumber>
+<docRef></docRef>
+<site>SMCo STAR J MALABON</site>
+<grossAmount>-565.95</grossAmount>
+<discount>0.00</discount>
+<netAmount>-565.95</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307174</docRef>
+<site>SMCo KANLAON QC</site>
+<grossAmount>-1,792.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-1,792.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322368550</poNumber>
+<docRef></docRef>
+<site>SMCo TANAY</site>
+<grossAmount>-35.35</grossAmount>
+<discount>0.00</discount>
+<netAmount>-35.35</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307172</docRef>
+<site>SMCo NAGTAHAN</site>
+<grossAmount>-8,960.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-8,960.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307157</docRef>
+<site>SMCo FESTIVAL MALL</site>
+<grossAmount>-28,000.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-28,000.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307170</docRef>
+<site>SMCo BERKELY</site>
+<grossAmount>-1,792.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-1,792.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322488778</poNumber>
+<docRef></docRef>
+<site>SMCo ARANETACNTR</site>
+<grossAmount>-145.66</grossAmount>
+<discount>0.00</discount>
+<netAmount>-145.66</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>1262307186</docRef>
+<site>SMCo STA. ANA</site>
+<grossAmount>-5,376.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-5,376.00</netAmount>
+</article>
+</body>
+<footer>
+<totalAmount>1,637,169.99</totalAmount>
+<ewtAmount>0.00</ewtAmount>
+<arItcc>0.00</arItcc>
+<netPayable>1,637,169.99</netPayable>
+<importantRemarks><![CDATA[Please review your Details of Payment immediately. Discrepancy noted should be reported within 60 days from credit date. Any request for reconciliation beyond this period shall not be given priority.]]></importantRemarks></footer>
+</document>
+</xml>

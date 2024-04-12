@@ -1,0 +1,1877 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xml>
+<document>
+<header>
+<companyName><![CDATA[SUPERVALUE INC.]]></companyName>
+<DocumentType>Remittance Advice</DocumentType>
+<postDate><![CDATA[04/03/2024 7:47:08]]></postDate>
+<payeeName><![CDATA[BOX & BASICS DISTRIBUTION INC.]]></payeeName>
+<checkDate><![CDATA[04/03/2024]]></checkDate>
+<checkNumber><![CDATA[8700014734]]></checkNumber>
+<region><![CDATA[NCR]]></region>
+<amount>1,236,640.65</amount>
+</header>
+<body>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089821445</poNumber>
+<docRef>27970</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>7,237.02</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,237.02</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089974687</poNumber>
+<docRef>27968</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>22,290.04</grossAmount>
+<discount>0.00</discount>
+<netAmount>22,290.04</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089791127</poNumber>
+<docRef>6499,6502</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>32,220.43</grossAmount>
+<discount>0.00</discount>
+<netAmount>32,220.43</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089843455</poNumber>
+<docRef>6498</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>2,525.82</grossAmount>
+<discount>0.00</discount>
+<netAmount>2,525.82</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089783435</poNumber>
+<docRef>6500</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>2,525.82</grossAmount>
+<discount>0.00</discount>
+<netAmount>2,525.82</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870365</poNumber>
+<docRef>27967</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>14,805.98</grossAmount>
+<discount>0.00</discount>
+<netAmount>14,805.98</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952809</poNumber>
+<docRef>27966</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>2,485.35</grossAmount>
+<discount>0.00</discount>
+<netAmount>2,485.35</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870373</poNumber>
+<docRef>28040</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>20,199.60</grossAmount>
+<discount>0.00</discount>
+<netAmount>20,199.60</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089887693</poNumber>
+<docRef>27941</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>36,181.56</grossAmount>
+<discount>0.00</discount>
+<netAmount>36,181.56</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089820080</poNumber>
+<docRef>27955</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>2,130.30</grossAmount>
+<discount>0.00</discount>
+<netAmount>2,130.30</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089847075</poNumber>
+<docRef>27956</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>5,051.64</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,051.64</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089808731</poNumber>
+<docRef>27753</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>31,103.79</grossAmount>
+<discount>0.00</discount>
+<netAmount>31,103.79</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870380</poNumber>
+<docRef>27754</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>8,532.19</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,532.19</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089791128</poNumber>
+<docRef>6507</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>4,636.47</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,636.47</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089833126</poNumber>
+<docRef>6508</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>13,871.84</grossAmount>
+<discount>0.00</discount>
+<netAmount>13,871.84</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089750382</poNumber>
+<docRef>6182</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>14,603.96</grossAmount>
+<discount>0.00</discount>
+<netAmount>14,603.96</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089791130</poNumber>
+<docRef>6197</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>13,436.48</grossAmount>
+<discount>0.00</discount>
+<netAmount>13,436.48</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089833135</poNumber>
+<docRef>6196</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>8,162.72</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,162.72</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089651958</poNumber>
+<docRef>6198</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>18,339.03</grossAmount>
+<discount>0.00</discount>
+<netAmount>18,339.03</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089651959</poNumber>
+<docRef>6193</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>22,866.49</grossAmount>
+<discount>0.00</discount>
+<netAmount>22,866.49</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089833138</poNumber>
+<docRef>6192</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>9,920.69</grossAmount>
+<discount>0.00</discount>
+<netAmount>9,920.69</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089672113</poNumber>
+<docRef>6191</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>841.94</grossAmount>
+<discount>0.00</discount>
+<netAmount>841.94</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870355</poNumber>
+<docRef>27957</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>10,269.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>10,269.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089971988</poNumber>
+<docRef>275774</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>21,867.74</grossAmount>
+<discount>0.00</discount>
+<netAmount>21,867.74</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089881153</poNumber>
+<docRef>275726</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>5,893.57</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,893.57</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089884385</poNumber>
+<docRef>275725</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>33,755.65</grossAmount>
+<discount>0.00</discount>
+<netAmount>33,755.65</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870397</poNumber>
+<docRef>275724</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>19,792.51</grossAmount>
+<discount>0.00</discount>
+<netAmount>19,792.51</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089882526</poNumber>
+<docRef>275771</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>6,020.74</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,020.74</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089883657</poNumber>
+<docRef>275770</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>5,896.44</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,896.44</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868169</poNumber>
+<docRef>275769</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>15,727.30</grossAmount>
+<discount>0.00</discount>
+<netAmount>15,727.30</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089807765</poNumber>
+<docRef>275678</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>28,741.11</grossAmount>
+<discount>0.00</discount>
+<netAmount>28,741.11</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089667825</poNumber>
+<docRef>275679</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>7,244.20</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,244.20</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868228</poNumber>
+<docRef>275680</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>10,346.06</grossAmount>
+<discount>0.00</discount>
+<netAmount>10,346.06</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868184</poNumber>
+<docRef>275732</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>13,956.92</grossAmount>
+<discount>0.00</discount>
+<netAmount>13,956.92</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089883661</poNumber>
+<docRef>275733</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>11,924.08</grossAmount>
+<discount>0.00</discount>
+<netAmount>11,924.08</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089887288</poNumber>
+<docRef>275376</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>16,933.79</grossAmount>
+<discount>0.00</discount>
+<netAmount>16,933.79</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868113</poNumber>
+<docRef>275277</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>11,974.10</grossAmount>
+<discount>0.00</discount>
+<netAmount>11,974.10</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089884137</poNumber>
+<docRef>275278</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>20,668.09</grossAmount>
+<discount>0.00</discount>
+<netAmount>20,668.09</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089881150</poNumber>
+<docRef>275279</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>7,180.61</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,180.61</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870349</poNumber>
+<docRef>27946</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>13,262.44</grossAmount>
+<discount>0.00</discount>
+<netAmount>13,262.44</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089808304</poNumber>
+<docRef>27944</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>13,186.77</grossAmount>
+<discount>0.00</discount>
+<netAmount>13,186.77</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089847074</poNumber>
+<docRef>27945</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>5,051.64</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,051.64</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952829</poNumber>
+<docRef>28143</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>8,876.24</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,876.24</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870405</poNumber>
+<docRef>28152</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>36,360.57</grossAmount>
+<discount>0.00</discount>
+<netAmount>36,360.57</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089974695</poNumber>
+<docRef>28142</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>5,105.60</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,105.60</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959977</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-12,544.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-12,544.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959975</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-5,376.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-5,376.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959969</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-23,296.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-23,296.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162960002</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-9,856.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-9,856.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959996</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-31,360.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-31,360.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959967</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-1,792.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-1,792.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959972</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-19,712.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-19,712.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959959</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-3,584.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-3,584.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959979</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-10,976.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-10,976.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959978</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-12,544.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-12,544.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959974</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-14,336.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-14,336.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959973</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-11,200.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-11,200.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162960003</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-3,584.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-3,584.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959988</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-29,792.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-29,792.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959976</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-14,112.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-14,112.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959993</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-33,600.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-33,600.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959990</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-19,152.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-19,152.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959965</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-5,600.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-5,600.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162960001</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-31,360.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-31,360.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959992</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-33,600.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-33,600.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959989</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-31,920.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-31,920.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959955</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-8,960.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-8,960.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959995</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-31,360.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-31,360.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089786707</poNumber>
+<docRef>6190</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>5,051.64</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,051.64</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089791132</poNumber>
+<docRef>6194</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>15,899.74</grossAmount>
+<discount>0.00</discount>
+<netAmount>15,899.74</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089651955</poNumber>
+<docRef>19858</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>5,630.08</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,630.08</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089833116</poNumber>
+<docRef>19859</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>17,857.38</grossAmount>
+<discount>0.00</discount>
+<netAmount>17,857.38</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089750381</poNumber>
+<docRef>19820</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>24,335.53</grossAmount>
+<discount>0.00</discount>
+<netAmount>24,335.53</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089651957</poNumber>
+<docRef>4149</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>14,479.25</grossAmount>
+<discount>0.00</discount>
+<netAmount>14,479.25</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089686492</poNumber>
+<docRef>4150</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>8,149.71</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,149.71</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089548916</poNumber>
+<docRef>3612</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>12,700.65</grossAmount>
+<discount>0.00</discount>
+<netAmount>12,700.65</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089548924</poNumber>
+<docRef>3607</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>6,358.60</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,358.60</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089651960</poNumber>
+<docRef>3606</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>10,071.48</grossAmount>
+<discount>0.00</discount>
+<netAmount>10,071.48</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322445208</poNumber>
+<docRef></docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-1,661.73</grossAmount>
+<discount>0.00</discount>
+<netAmount>-1,661.73</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952796</poNumber>
+<docRef>276907</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>8,166.15</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,166.15</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089768021</poNumber>
+<docRef>276906</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>19,794.35</grossAmount>
+<discount>0.00</discount>
+<netAmount>19,794.35</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089759741</poNumber>
+<docRef>276905</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>66,837.97</grossAmount>
+<discount>0.00</discount>
+<netAmount>66,837.97</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089964939</poNumber>
+<docRef>276904</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>5,051.64</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,051.64</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089973459</poNumber>
+<docRef>276903</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>23,945.85</grossAmount>
+<discount>0.00</discount>
+<netAmount>23,945.85</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868083</poNumber>
+<docRef>276902</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>14,870.83</grossAmount>
+<discount>0.00</discount>
+<netAmount>14,870.83</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089682158</poNumber>
+<docRef>276901</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>5,957.17</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,957.17</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959952</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-5,376.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-5,376.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959970</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-23,296.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-23,296.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959966</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-31,920.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-31,920.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162960000</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-33,600.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-33,600.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090030863</poNumber>
+<docRef>28684</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>6,300.11</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,300.11</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870361</poNumber>
+<docRef>28683</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>45,619.99</grossAmount>
+<discount>0.00</discount>
+<netAmount>45,619.99</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952806</poNumber>
+<docRef>276646</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>7,907.94</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,907.94</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870364</poNumber>
+<docRef>276645</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>24,558.75</grossAmount>
+<discount>0.00</discount>
+<netAmount>24,558.75</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870419</poNumber>
+<docRef>276958</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>25,985.22</grossAmount>
+<discount>0.00</discount>
+<netAmount>25,985.22</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952837</poNumber>
+<docRef>276957</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>5,777.64</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,777.64</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089972143</poNumber>
+<docRef>276956</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>8,213.29</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,213.29</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089972134</poNumber>
+<docRef>276702</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>19,787.98</grossAmount>
+<discount>0.00</discount>
+<netAmount>19,787.98</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870399</poNumber>
+<docRef>276703</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>49,919.68</grossAmount>
+<discount>0.00</discount>
+<netAmount>49,919.68</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090004807</poNumber>
+<docRef>28965</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>11,871.56</grossAmount>
+<discount>0.00</discount>
+<netAmount>11,871.56</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089993244</poNumber>
+<docRef>28966</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>5,051.64</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,051.64</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870378</poNumber>
+<docRef>28967</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>32,928.68</grossAmount>
+<discount>0.00</discount>
+<netAmount>32,928.68</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868098</poNumber>
+<docRef>28882</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>16,312.27</grossAmount>
+<discount>0.00</discount>
+<netAmount>16,312.27</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090004471</poNumber>
+<docRef>28879</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>12,989.85</grossAmount>
+<discount>0.00</discount>
+<netAmount>12,989.85</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952807</poNumber>
+<docRef>28880</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>6,390.90</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,390.90</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089669306</poNumber>
+<docRef>29048</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>5,051.64</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,051.64</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870421</poNumber>
+<docRef>29047</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>18,398.97</grossAmount>
+<discount>0.00</discount>
+<netAmount>18,398.97</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089994451</poNumber>
+<docRef>29046</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>4,527.61</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,527.61</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090004811</poNumber>
+<docRef>29045</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>62,584.85</grossAmount>
+<discount>0.00</discount>
+<netAmount>62,584.85</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952840</poNumber>
+<docRef>29044</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>5,777.64</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,777.64</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870390</poNumber>
+<docRef>29017</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>13,840.06</grossAmount>
+<discount>0.00</discount>
+<netAmount>13,840.06</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089973484</poNumber>
+<docRef>29016</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>17,856.25</grossAmount>
+<discount>0.00</discount>
+<netAmount>17,856.25</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870363</poNumber>
+<docRef>29036</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>10,773.31</grossAmount>
+<discount>0.00</discount>
+<netAmount>10,773.31</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090008163</poNumber>
+<docRef>29035</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>23,134.33</grossAmount>
+<discount>0.00</discount>
+<netAmount>23,134.33</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089993243</poNumber>
+<docRef>29034</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>6,147.92</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,147.92</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090004482</poNumber>
+<docRef>275747</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>8,043.81</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,043.81</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952824</poNumber>
+<docRef>275748</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>5,777.64</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,777.64</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868202</poNumber>
+<docRef>275749</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>25,718.20</grossAmount>
+<discount>0.00</discount>
+<netAmount>25,718.20</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870343</poNumber>
+<docRef>28871</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>25,365.16</grossAmount>
+<discount>0.00</discount>
+<netAmount>25,365.16</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089670737</poNumber>
+<docRef>28870</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>5,893.57</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,893.57</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089994322</poNumber>
+<docRef>28869</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>6,147.92</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,147.92</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089985350</poNumber>
+<docRef>28868</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>12,422.99</grossAmount>
+<discount>0.00</discount>
+<netAmount>12,422.99</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090008095</poNumber>
+<docRef>28867</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>51,117.27</grossAmount>
+<discount>0.00</discount>
+<netAmount>51,117.27</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952819</poNumber>
+<docRef>275751</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>5,777.64</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,777.64</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090004475</poNumber>
+<docRef>275752</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>8,458.72</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,458.72</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868179</poNumber>
+<docRef>275750</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>7,570.65</grossAmount>
+<discount>0.00</discount>
+<netAmount>7,570.65</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952836</poNumber>
+<docRef>276371</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>9,425.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>9,425.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090036038</poNumber>
+<docRef>276372</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>9,406.05</grossAmount>
+<discount>0.00</discount>
+<netAmount>9,406.05</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090044807</poNumber>
+<docRef>276436</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>8,549.03</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,549.03</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090044921</poNumber>
+<docRef>276220</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>8,950.15</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,950.15</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090032494</poNumber>
+<docRef>276435</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>4,527.61</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,527.61</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322434636</poNumber>
+<docRef></docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-37.21</grossAmount>
+<discount>0.00</discount>
+<netAmount>-37.21</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322482046</poNumber>
+<docRef></docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>-812.70</grossAmount>
+<discount>0.00</discount>
+<netAmount>-812.70</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089974690</poNumber>
+<docRef>28922</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>29,068.47</grossAmount>
+<discount>0.00</discount>
+<netAmount>29,068.47</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870404</poNumber>
+<docRef>28281</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>9,077.88</grossAmount>
+<discount>0.00</discount>
+<netAmount>9,077.88</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089974693</poNumber>
+<docRef>28282</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>47,955.30</grossAmount>
+<discount>0.00</discount>
+<netAmount>47,955.30</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952817</poNumber>
+<docRef>276683</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>2,840.40</grossAmount>
+<discount>0.00</discount>
+<netAmount>2,840.40</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868103</poNumber>
+<docRef>276000</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>36,286.14</grossAmount>
+<discount>0.00</discount>
+<netAmount>36,286.14</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952808</poNumber>
+<docRef>276713</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>6,390.90</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,390.90</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090004473</poNumber>
+<docRef>276714</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>5,105.60</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,105.60</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089672115</poNumber>
+<docRef>28283</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>10,421.20</grossAmount>
+<discount>0.00</discount>
+<netAmount>10,421.20</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090004479</poNumber>
+<docRef>16957,275979</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>10,962.36</grossAmount>
+<discount>0.00</discount>
+<netAmount>10,962.36</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089994450</poNumber>
+<docRef>275978</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>6,084.32</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,084.32</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868181</poNumber>
+<docRef>275977</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>18,005.43</grossAmount>
+<discount>0.00</discount>
+<netAmount>18,005.43</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870398</poNumber>
+<docRef>275930</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>20,481.62</grossAmount>
+<discount>0.00</discount>
+<netAmount>20,481.62</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089884387</poNumber>
+<docRef>275929</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>13,242.19</grossAmount>
+<discount>0.00</discount>
+<netAmount>13,242.19</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868093</poNumber>
+<docRef>275779</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>30,792.26</grossAmount>
+<discount>0.00</discount>
+<netAmount>30,792.26</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089971990</poNumber>
+<docRef>276619</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>6,878.11</grossAmount>
+<discount>0.00</discount>
+<netAmount>6,878.11</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952820</poNumber>
+<docRef>276618</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>5,680.80</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,680.80</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952804</poNumber>
+<docRef>275780</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>2,840.40</grossAmount>
+<discount>0.00</discount>
+<netAmount>2,840.40</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868223</poNumber>
+<docRef>276610</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>11,630.86</grossAmount>
+<discount>0.00</discount>
+<netAmount>11,630.86</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952793</poNumber>
+<docRef>28108</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>2,840.40</grossAmount>
+<discount>0.00</discount>
+<netAmount>2,840.40</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089941486</poNumber>
+<docRef>28107</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>9,100.80</grossAmount>
+<discount>0.00</discount>
+<netAmount>9,100.80</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870346</poNumber>
+<docRef>28106</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>17,335.57</grossAmount>
+<discount>0.00</discount>
+<netAmount>17,335.57</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089881154</poNumber>
+<docRef>276613</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>5,242.40</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,242.40</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089669304</poNumber>
+<docRef>276612</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>4,527.61</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,527.61</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089884141</poNumber>
+<docRef>276611</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>24,956.72</grossAmount>
+<discount>0.00</discount>
+<netAmount>24,956.72</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870379</poNumber>
+<docRef>28699</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>46,593.17</grossAmount>
+<discount>0.00</discount>
+<netAmount>46,593.17</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089985354</poNumber>
+<docRef>28704</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>5,305.98</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,305.98</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090032294</poNumber>
+<docRef>28705</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>5,375.33</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,375.33</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089972128</poNumber>
+<docRef>276827</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>5,317.53</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,317.53</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870417</poNumber>
+<docRef>28715</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>21,101.45</grossAmount>
+<discount>0.00</discount>
+<netAmount>21,101.45</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089974697</poNumber>
+<docRef>28716</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>17,861.91</grossAmount>
+<discount>0.00</discount>
+<netAmount>17,861.91</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952835</poNumber>
+<docRef>28717</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>710.10</grossAmount>
+<discount>0.00</discount>
+<netAmount>710.10</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089974691</poNumber>
+<docRef>28515</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>4,745.26</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,745.26</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870395</poNumber>
+<docRef>28516</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>13,697.93</grossAmount>
+<discount>0.00</discount>
+<netAmount>13,697.93</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089952822</poNumber>
+<docRef>28513</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>1,420.21</grossAmount>
+<discount>0.00</discount>
+<netAmount>1,420.21</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089974688</poNumber>
+<docRef>28693</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>13,184.88</grossAmount>
+<discount>0.00</discount>
+<netAmount>13,184.88</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870374</poNumber>
+<docRef>28692</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>11,274.24</grossAmount>
+<discount>0.00</discount>
+<netAmount>11,274.24</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870416</poNumber>
+<docRef>28848</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>8,384.98</grossAmount>
+<discount>0.00</discount>
+<netAmount>8,384.98</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870394</poNumber>
+<docRef>28709</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>26,967.25</grossAmount>
+<discount>0.00</discount>
+<netAmount>26,967.25</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1090007438</poNumber>
+<docRef>28710</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>5,458.50</grossAmount>
+<discount>0.00</discount>
+<netAmount>5,458.50</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089870384</poNumber>
+<docRef>28561</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>14,527.58</grossAmount>
+<discount>0.00</discount>
+<netAmount>14,527.58</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089913309</poNumber>
+<docRef>28612</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>4,527.61</grossAmount>
+<discount>0.00</discount>
+<netAmount>4,527.61</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089941490</poNumber>
+<docRef>28559</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>14,521.95</grossAmount>
+<discount>0.00</discount>
+<netAmount>14,521.95</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089973477</poNumber>
+<docRef>276681</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>11,271.96</grossAmount>
+<discount>0.00</discount>
+<netAmount>11,271.96</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>1089868167</poNumber>
+<docRef>276682</docRef>
+<site>SVI HEADOFFICE</site>
+<grossAmount>13,449.75</grossAmount>
+<discount>0.00</discount>
+<netAmount>13,449.75</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322444438</poNumber>
+<docRef></docRef>
+<site>SVI GRAND CENTRAL CALOOCAN</site>
+<grossAmount>-954.89</grossAmount>
+<discount>0.00</discount>
+<netAmount>-954.89</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322487152</poNumber>
+<docRef></docRef>
+<site>SVI GRAND CENTRAL CALOOCAN</site>
+<grossAmount>-978.27</grossAmount>
+<discount>0.00</discount>
+<netAmount>-978.27</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959985</docRef>
+<site>SVI SM CENTER SANGANDAAN</site>
+<grossAmount>-1,792.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-1,792.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322494607</poNumber>
+<docRef></docRef>
+<site>SVI SM CENTER SANGANDAAN</site>
+<grossAmount>-1,912.49</grossAmount>
+<discount>0.00</discount>
+<netAmount>-1,912.49</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959984</docRef>
+<site>SVI CHERRY SHAW</site>
+<grossAmount>-14,336.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-14,336.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/P -]]></transCode>
+<poNumber>6322487119</poNumber>
+<docRef></docRef>
+<site>SVI CHERRY ANTIPOLO</site>
+<grossAmount>-37.21</grossAmount>
+<discount>0.00</discount>
+<netAmount>-37.21</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959954</docRef>
+<site>SVI CHERRY ANTIPOLO</site>
+<grossAmount>-3,584.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-3,584.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959962</docRef>
+<site>SVI SM EAST ORTIGAS</site>
+<grossAmount>-5,376.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-5,376.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959983</docRef>
+<site>SVI SAN MATEO RIZAL</site>
+<grossAmount>-8,960.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-8,960.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959982</docRef>
+<site>SVI AURA PREMIER</site>
+<grossAmount>-5,600.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-5,600.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959958</docRef>
+<site>SVI AURA PREMIER</site>
+<grossAmount>-8,960.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-8,960.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959981</docRef>
+<site>SVI MASINAG</site>
+<grossAmount>-10,752.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-10,752.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959980</docRef>
+<site>SVI NOVALICHES</site>
+<grossAmount>-12,544.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-12,544.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959971</docRef>
+<site>SVI MEGAMALL A</site>
+<grossAmount>-16,128.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-16,128.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959994</docRef>
+<site>SVI SAN LAZARO</site>
+<grossAmount>-31,360.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-31,360.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959968</docRef>
+<site>SVI SAN LAZARO</site>
+<grossAmount>-30,464.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-30,464.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959991</docRef>
+<site>SVI MANILA</site>
+<grossAmount>-33,600.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-33,600.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959963</docRef>
+<site>SVI SOUTHMALL</site>
+<grossAmount>-33,600.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-33,600.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959956</docRef>
+<site>SVI CUBAO</site>
+<grossAmount>-8,960.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-8,960.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959960</docRef>
+<site>SVI CUBAO</site>
+<grossAmount>-5,600.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-5,600.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959999</docRef>
+<site>SVI FAIRVIEW</site>
+<grossAmount>-33,600.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-33,600.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959987</docRef>
+<site>SVI FAIRVIEW</site>
+<grossAmount>-25,536.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-25,536.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959998</docRef>
+<site>SVI BACOOR</site>
+<grossAmount>-31,360.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-31,360.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959957</docRef>
+<site>SVI MEGAMALL</site>
+<grossAmount>-5,600.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-5,600.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959997</docRef>
+<site>SVI MEGAMALL</site>
+<grossAmount>-33,600.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-33,600.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959953</docRef>
+<site>SVI MEGAMALL</site>
+<grossAmount>-5,600.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-5,600.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959964</docRef>
+<site>SVI STA. MESA</site>
+<grossAmount>-5,600.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-5,600.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959961</docRef>
+<site>SVI MAKATI</site>
+<grossAmount>-5,600.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-5,600.00</netAmount>
+</article>
+<article>
+<transCode><![CDATA[A/R-Sa]]></transCode>
+<poNumber></poNumber>
+<docRef>0162959986</docRef>
+<site>SVI MAKATI</site>
+<grossAmount>-8,512.00</grossAmount>
+<discount>0.00</discount>
+<netAmount>-8,512.00</netAmount>
+</article>
+</body>
+<footer>
+<totalAmount>1,236,640.65</totalAmount>
+<ewtAmount>0.00</ewtAmount>
+<arItcc>0.00</arItcc>
+<netPayable>1,236,640.65</netPayable>
+<importantRemarks><![CDATA[Please review your Details of Payment immediately. Discrepancy noted should be reported within 60 days from credit date. Any request for reconciliation beyond this period shall not be given priority.]]></importantRemarks></footer>
+</document>
+</xml>
