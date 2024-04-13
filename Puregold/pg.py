@@ -22,24 +22,26 @@ def html_to_excel(html_file, parent_dir):
     # Extract data from HTML and populate DataFrame
     data = []
     for invoice_row in soup.find_all('tr'):
-        cells = invoice_row.find_all('font')
-        if len(cells) == 9:  # Assuming each row has 9 cells
-            company_folder = os.path.basename(os.path.dirname(html_file))
-            EDI_Customer = company_names.get(company_folder, '')
-            EDI_Company = cells[0].text.strip()  # Payee
-            EDI_DocType = cells[7].text.strip()  # Description
-            EDI_TransType = None
-            EDI_PORef = None
-            EDI_InvRef = cells[1].text.strip()  # Invoice Number
-            EDI_Gross = cells[2].text.strip()  # Original/Bal Amount
-            EDI_Discount = None
-            EDI_EWT = cells[4].text.strip()  # WHT Amount
-            EDI_Net = cells[5].text.strip()  # Paid Amount (NET)
-            EDI_RARef = cells[6].text.strip()  # Transaction No.
-            EDI_RADate = cells[3].text.strip()  # PostDate
-            EDI_RAAmt = cells[2].text.strip()  # Amount (assuming it's the same as Original/Bal Amount)
-            
-            data.append([EDI_Customer, EDI_Company, EDI_DocType, EDI_TransType, EDI_PORef, EDI_InvRef, EDI_Gross, EDI_Discount, EDI_EWT, EDI_Net, EDI_RARef, EDI_RADate, EDI_RAAmt])
+        first_cell_text = invoice_row.find('font').text.strip() if invoice_row.find('font') else None
+        if first_cell_text != "Loc":  # Skip rows where the first cell contains "Loc"
+            cells = invoice_row.find_all('font')
+            if len(cells) == 9:  # Assuming each row has 9 cells
+                company_folder = os.path.basename(os.path.dirname(html_file))
+                EDI_Customer = company_names.get(company_folder, '')
+                EDI_Company = cells[0].text.strip()  # Payee
+                EDI_DocType = cells[7].text.strip()  # Description
+                EDI_TransType = None
+                EDI_PORef = None
+                EDI_InvRef = cells[1].text.strip()  # Invoice Number
+                EDI_Gross = cells[2].text.strip()  # Original/Bal Amount
+                EDI_Discount = None
+                EDI_EWT = cells[4].text.strip()  # WHT Amount
+                EDI_Net = cells[5].text.strip()  # Paid Amount (NET)
+                EDI_RARef = cells[6].text.strip()  # Transaction No.
+                EDI_RADate = cells[3].text.strip()  # PostDate
+                EDI_RAAmt = cells[2].text.strip()  # Amount (assuming it's the same as Original/Bal Amount)
+                
+                data.append([EDI_Customer, EDI_Company, EDI_DocType, EDI_TransType, EDI_PORef, EDI_InvRef, EDI_Gross, EDI_Discount, EDI_EWT, EDI_Net, EDI_RARef, EDI_RADate, EDI_RAAmt])
 
     # Create DataFrame
     df = pd.DataFrame(data, columns=['EDI_Customer', 'EDI_Company', 'EDI_DocType', 'EDI_TransType', 'EDI_PORef', 'EDI_InvRef', 'EDI_Gross', 'EDI_Discount', 'EDI_EWT', 'EDI_Net', 'EDI_RARef', 'EDI_RADate', 'EDI_RAAmt'])
