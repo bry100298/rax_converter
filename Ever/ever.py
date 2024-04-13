@@ -19,10 +19,15 @@ def pdf_to_html(pdf_file, output_folder):
     # Extract tables from PDF
     tables = tabula.read_pdf(pdf_file, pages='all')
 
-    # Save each table as a separate HTML file
-    for i, table in enumerate(tables):
-        table_html_file = html_file.replace('.html', f'_{i}.html')
-        table.to_html(table_html_file, index=False)
+    # Concatenate tables into a single DataFrame
+    concatenated_df = pd.concat(tables)
+
+    # Convert DataFrame to HTML
+    html_content = concatenated_df.to_html(index=False)
+
+    # Write HTML content to file
+    with open(html_file, 'w') as f:
+        f.write(html_content)
 
     return html_file
 
