@@ -13,17 +13,10 @@ company_names = {
 }
 
 # Function to convert XML to Excel
-def xml_to_excel(xml_file, parent_dir):
+def xml_to_excel(xml_file, inbound_folder, outbound_folder, inbound_outbound_folder, archive_folder, error_folder):
     # Parse XML file
     tree = ET.parse(xml_file)
     root = tree.getroot()
-
-    # Define paths
-    inbound_folder = os.path.join(parent_dir, 'Inbound')
-    outbound_folder = os.path.join(parent_dir, 'Outbound')
-    inbound_outbound_folder = os.path.join(parent_dir, 'Inbound', 'Outbound')
-    archive_folder = os.path.join(parent_dir, 'Archive')
-    error_folder = os.path.join(parent_dir, 'Error')
 
     # Check if filename starts with "RA" (case sensitive)
     if not os.path.basename(xml_file).startswith('RA'):
@@ -90,18 +83,19 @@ def xml_to_excel(xml_file, parent_dir):
 
 # Main function
 def main():
-    # Get parent directory of the script
-    # script_dir = os.path.dirname(__file__)
-    # parent_dir = os.path.join(script_dir, 'SM_Group')
-    parent_dir = 'SM_Group'
+    # Path settings
+    inbound_folder = 'C:/Users/User/Documents/Project/rax_converter/SM_Group/Inbound'
+    outbound_folder = 'C:/Users/User/Documents/Project/rax_converter/SM_Group/Outbound'
+    inbound_outbound_folder = 'C:/Users/User/Documents/Project/rax_converter/SM_Group/Inbound/Outbound'
+    archive_folder = 'C:/Users/User/Documents/Project/rax_converter/SM_Group/Archive'
+    error_folder = 'C:/Users/User/Documents/Project/rax_converter/SM_Group'
 
     # Iterate over XML files in Inbound Folder
-    inbound_dir = os.path.join(parent_dir, 'Inbound')
-    for root_folder, dirs, files in os.walk(inbound_dir):
+    for root_folder, dirs, files in os.walk(inbound_folder):
         for file in files:
             if file.endswith('.xml'):
                 xml_file = os.path.join(root_folder, file)
-                xml_to_excel(xml_file, parent_dir)
+                xml_to_excel(xml_file, inbound_folder, outbound_folder, inbound_outbound_folder, archive_folder, error_folder)
 
     time.sleep(5)  # Wait for 5 seconds before exiting
 
