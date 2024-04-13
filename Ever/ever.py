@@ -4,6 +4,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import time
 import pdfplumber
+import tabula
 
 # Variable dictionary mapping company folders to company names
 company_names = {
@@ -15,15 +16,13 @@ def pdf_to_html(pdf_file, output_folder):
     # Generate HTML file path
     html_file = os.path.join(output_folder, os.path.basename(pdf_file).replace('.pdf', '.html'))
 
-    # Convert PDF to HTML
-    with pdfplumber.open(pdf_file) as pdf:
-        page = pdf.pages[0]  # Extract content from the first page
-        text = page.extract_text()
-        soup = BeautifulSoup(text, 'html.parser')
+    # Extract tables from PDF
+    tables = tabula.read_pdf(pdf_file, pages='all')
 
-    # Write HTML content to file
-    with open(html_file, 'w') as f:
-        f.write(str(soup))
+    # Save each table as a separate HTML file
+    for i, table in enumerate(tables):
+        table_html_file = html_file.replace('.html', f'_{i}.html')
+        table.to_html(table_html_file, index=False)
 
     return html_file
 
