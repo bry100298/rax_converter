@@ -65,7 +65,7 @@ def html_to_excel(html_file, parent_dir):
 
     # Create Excel file path
     company_folder = os.path.basename(os.path.dirname(html_file))
-    excel_folder = os.path.join(parent_dir, 'Inbound', 'Outbound', company_folder)
+    excel_folder = os.path.join(parent_dir, 'Inbound', 'Outbound')
     os.makedirs(excel_folder, exist_ok=True)
     excel_file = os.path.join(excel_folder, os.path.basename(html_file).replace('.html', '.xlsx'))
 
