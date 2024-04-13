@@ -22,6 +22,8 @@
         <pre><code>pip install pandas
 pip install openpyxl
 pip install beautifulsoup4</code></pre>
+pip install pdfplumber
+</code></pre>
     </li>
 </ol>
 
@@ -49,6 +51,7 @@ from datetime import datetime
 from xml.etree import ElementTree as ET
 import time
 from bs4 import BeautifulSoup
+import pdfplumber
 
 # Your code here...
 </code></pre>
