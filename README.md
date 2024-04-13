@@ -20,7 +20,8 @@
         <strong>Install Required Packages:</strong><br>
         Run the following commands to install the necessary packages:
         <pre><code>pip install pandas
-pip install openpyxl</code></pre>
+pip install openpyxl
+pip install beautifulsoup4</code></pre>
     </li>
 </ol>
 
@@ -33,7 +34,8 @@ import shutil
 import pandas as pd
 from datetime import datetime
 from xml.etree import ElementTree as ET
-import time</code></pre>
+import time
+from bs4 import BeautifulSoup</code></pre>
 
 <h2>Usage</h2>
 
@@ -46,6 +48,7 @@ import pandas as pd
 from datetime import datetime
 from xml.etree import ElementTree as ET
 import time
+from bs4 import BeautifulSoup
 
 # Your code here...
 </code></pre>
