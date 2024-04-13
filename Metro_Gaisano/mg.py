@@ -60,6 +60,18 @@ def xml_to_excel(xml_file, parent_dir):
             # No matching discrepancy detail found
             PONUMB = None
 
+        # Find all INVOICE-DISCREPANCY elements
+        for return_to_vendor in root.findall(".//RETURN-TO-VENDOR"):
+            # Find the corresponding DISCREPANCY-DETAIL element
+            rtv_header = return_to_vendor.find("RTV-HEADER")
+            if rtv_header is not None and rtv_header.find("AIINV").text == AIINV:
+                # Found the matching discrepancy detail
+                PONUMB = rtv_header.find('PONUMB').text
+                break  # Exit the loop once a match is found
+        else:
+            # No matching discrepancy detail found
+            PONUMB = None
+
         data.append([EDI_Customer, ASNAME, INVOICE_TYPE, EDI_TransType, PONUMB, AIINV, AIAMT, None, WITHHOLDINGTAX, AITONT, AICHQ, None, BATCH_AMOUNT])
 
     # Create DataFrame
