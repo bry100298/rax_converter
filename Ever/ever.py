@@ -83,6 +83,12 @@ def html_to_excel(html_file, parent_dir):
     # Move HTML file to Archive html Folder
     shutil.move(html_file, os.path.join(archive_html_folder, os.path.basename(html_file)))
 
+    # Move PDF file to Archive pdf Folder
+    shutil.move(html_file.replace('.html', '.pdf'), os.path.join(parent_dir, 'Archive', 'pdf', company_folder))
+
+    # Copy Excel file to Archive excel Folder
+    shutil.copy(excel_file, os.path.join(archive_excel_folder, os.path.basename(excel_file)))
+
     # Move Excel file to Outbound Folder
     shutil.move(excel_file, os.path.join(parent_dir, 'Outbound', company_folder))
 
@@ -98,7 +104,7 @@ def main():
                 pdf_file = os.path.join(root_folder, file)
                 company_folder = os.path.basename(root_folder)
                 # Convert PDF to HTML in the company folder
-                html_file = pdf_to_html(pdf_file, root_folder)
+                html_file = pdf_to_html(pdf_file, os.path.join(inbound_dir, company_folder))
                 # Process HTML to Excel
                 html_to_excel(html_file, parent_dir)
 
