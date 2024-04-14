@@ -23,6 +23,8 @@
 pip install openpyxl
 pip install beautifulsoup4</code></pre>
 pip install pdfplumber
+pip install --upgrade xlrd
+
 </code></pre>
     </li>
 </ol>

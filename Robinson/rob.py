@@ -1,125 +1,95 @@
 import os
 import shutil
 import pandas as pd
-from bs4 import BeautifulSoup
 import time
-import pdfplumber
-import tabula
 
 # Variable dictionary mapping company folders to company names
 company_names = {
-    'ROBS': "ROBINSONS SUPERMARKET ",
-    'ROBD': "ROBINSONS DEPARTMENT STORE "
+    'ROBS': "ROBINSONS SUPERMARKET",
+    'ROBD': "ROBINSONS DEPARTMENT STORE"
 }
 
-# Function to convert PDF to HTML
-def pdf_to_html(pdf_file, output_folder):
-    # Generate HTML file path
-    html_file = os.path.join(output_folder, os.path.basename(pdf_file).replace('.pdf', '.html'))
+# Function to merge and update Excel files
+def merge_and_update_excel(inbound_dir, archive_dir):
+    for company_folder in os.listdir(inbound_dir):
+        if os.path.isdir(os.path.join(inbound_dir, company_folder)):
+            summary_file = os.path.join(inbound_dir, company_folder, 'Outright Summary of Payments Date.xlsx')
+            advice_file = os.path.join(inbound_dir, company_folder, 'Outright Payment Advice Date.xlsx')
 
-    # Extract tables from PDF
-    tables = tabula.read_pdf(pdf_file, pages='all')
+            # Read Excel files into DataFrames
+            df_summary = pd.read_excel(summary_file)
+            df_advice = pd.read_excel(advice_file)
 
-    # Concatenate tables into a single DataFrame
-    concatenated_df = pd.concat(tables)
+            # Merge DataFrames on common columns
+            merged_df = pd.merge(df_summary, df_advice[['VENDOR CODE', 'Payment Ref No', 'Cheque Amount']], 
+                                 on=['VENDOR CODE', 'Payment Ref No'], how='left')
 
-    # Convert DataFrame to HTML
-    html_content = concatenated_df.to_html(index=False)
+            # Generate timestamp for filename
+            timestamp = int(time.time())
 
-    # Write HTML content to file
-    with open(html_file, 'w') as f:
-        f.write(html_content)
+            # Save merged DataFrame with additional column to a new Excel file
+            merged_folder = os.path.join(inbound_dir, 'Merged', company_folder)
+            os.makedirs(merged_folder, exist_ok=True)
+            merged_file = os.path.join(merged_folder, f'opadosopd_{timestamp}.xlsx')
+            merged_df.to_excel(merged_file, index=False)
 
-    return html_file
+            # Move raw Excel files to Archive/original
+            archive_original_folder = os.path.join(archive_dir, 'excel', 'Original', company_folder, str(timestamp))
+            os.makedirs(archive_original_folder, exist_ok=True)
+            shutil.move(summary_file, archive_original_folder)
+            shutil.move(advice_file, archive_original_folder)
 
-# Function to convert HTML to Excel
-def html_to_excel(html_file, parent_dir, pdf_file):
-    # Read HTML file
-    with open(html_file, 'r') as f:
-        html_content = f.read()
+            # Add additional columns and update Excel file in Outbound folder
+            update_excel(merged_file, company_folder)
 
-    # Parse HTML
-    soup = BeautifulSoup(html_content, 'html.parser')
+            # Move merged Excel file to Archive/original_merged
+            archive_merged_folder = os.path.join(archive_dir, 'excel', 'Original_Merged', company_folder, str(timestamp))
+            os.makedirs(archive_merged_folder, exist_ok=True)
+            shutil.move(merged_file, archive_merged_folder)
 
-    # Extract data from HTML and populate DataFrame
-    data = []
-    for invoice_row in soup.find_all('tr'):
-        cells = invoice_row.find_all('td')
-        if len(cells) == 7:  # Assuming each row has 7 cells
-            company_folder = os.path.basename(os.path.dirname(pdf_file))
-            EDI_Customer = company_names[company_folder]
-            EDI_Company = None
-            EDI_DocType = cells[1].text.strip()  # Vendor Name
-            EDI_TransType = None
-            EDI_PORef = None
-            EDI_InvRef = cells[2].text.strip()  # Vendor Code
-            EDI_Gross = cells[3].text.strip()  # APID
-            EDI_Discount = None
-            EDI_EWT = None
-            EDI_Net = None
-            EDI_RARef = cells[4].text.strip()  # CV No
-            EDI_RADate = cells[5].text.strip()  # Payment Date
-            EDI_RAAmt = cells[6].text.strip()  # Total
+            # Copy merged Excel file to Outbound folder
+            outbound_folder = os.path.join(inbound_dir, 'Outbound', company_folder)
+            os.makedirs(outbound_folder, exist_ok=True)
+            shutil.copy(merged_file, outbound_folder)
 
-            data.append([EDI_Customer, EDI_Company, EDI_DocType, EDI_TransType, EDI_PORef, EDI_InvRef, EDI_Gross, EDI_Discount, EDI_EWT, EDI_Net, EDI_RARef, EDI_RADate, EDI_RAAmt])
+            # Copy converted Excel file to Archive/Converted
+            archive_converted_folder = os.path.join(archive_dir, 'excel', 'Converted', company_folder, str(timestamp))
+            os.makedirs(archive_converted_folder, exist_ok=True)
+            shutil.copy(merged_file, archive_converted_folder)
 
-    # Create DataFrame
-    df = pd.DataFrame(data, columns=['EDI_Customer', 'EDI_Company', 'EDI_DocType', 'EDI_TransType', 'EDI_PORef', 'EDI_InvRef', 'EDI_Gross', 'EDI_Discount', 'EDI_EWT', 'EDI_Net', 'EDI_RARef', 'EDI_RADate', 'EDI_RAAmt'])
+# Function to add additional columns and update Excel file
+def update_excel(excel_file, company_folder):
+    # Read Excel file into DataFrame
+    df = pd.read_excel(excel_file)
 
-    # Create Excel file path
-    company_folder = os.path.basename(os.path.dirname(pdf_file))
-    excel_folder = os.path.join(parent_dir, 'Inbound', 'Outbound', company_folder)
-    os.makedirs(excel_folder, exist_ok=True)
-    excel_file = os.path.join(excel_folder, os.path.basename(html_file).replace('.html', '.xlsx'))
+    # Add additional columns based on instructions
+    df['EDI_Customer'] = company_names[company_folder]
+    df['EDI_Company'] = df['VENDOR']
+    df['EDI_DocType'] = df['Transaction_Type']
+    df['EDI_TransType'] = None
+    df['EDI_PORef'] = df['PO Number']
+    df['EDI_InvRef'] = df['Invoice No']
+    df['EDI_Gross'] = df['RC Amount']
+    df['EDI_Discount'] = None
+    df['EDI_EWT'] = df['EWT']
+    df['EDI_Net'] = df['NET AMOUNT']
+    df['EDI_RARef'] = df['Payment Ref No']
+    df['EDI_RADate'] = df['PAYMENT_DATE']
+    df['EDI_RAAmt'] = df['Cheque Amount']
 
-    # Write DataFrame to Excel
+    # Save updated DataFrame to Excel
     df.to_excel(excel_file, index=False)
-
-    # Create Archive Folder if not exists
-    archive_excel_folder = os.path.join(parent_dir, 'Archive', 'excel', company_folder)
-    os.makedirs(archive_excel_folder, exist_ok=True)
-
-    # Create Archive Folder if not exists
-    archive_html_folder = os.path.join(parent_dir, 'Archive', 'html', company_folder)
-    os.makedirs(archive_html_folder, exist_ok=True)
-
-    # Create Archive Folder if not exists
-    archive_pdf_folder = os.path.join(parent_dir, 'Archive', 'pdf', company_folder)
-    os.makedirs(archive_pdf_folder, exist_ok=True)
-    archive_folder = os.path.join(parent_dir, 'Archive')
-
-    # Move HTML file to Archive html Folder
-    shutil.move(html_file, os.path.join(archive_html_folder, os.path.basename(html_file)))
-
-    # Move PDF file to Archive pdf Folder
-    # shutil.move(pdf_file, os.path.join(archive_folder, 'pdf', company_folder))
-    shutil.move(pdf_file, os.path.join(archive_pdf_folder, os.path.basename(pdf_file)))
-
-    # Copy Excel file to Archive excel Folder
-    shutil.copy(excel_file, os.path.join(archive_excel_folder, os.path.basename(excel_file)))
-
-    # Move Excel file to Outbound Folder
-    shutil.move(excel_file, os.path.join(parent_dir, 'Outbound', company_folder))
 
 # Main function
 def main():
     parent_dir = 'Robinson'
 
-    # Iterate over PDF files in Inbound Folder
     inbound_dir = os.path.join(parent_dir, 'Inbound')
-    for root_folder, dirs, files in os.walk(inbound_dir):
-        for file in files:
-            if file.endswith('.pdf'):
-                pdf_file = os.path.join(root_folder, file)
-                company_folder = os.path.basename(root_folder)
-                # Convert PDF to HTML in the company folder
-                html_file = pdf_to_html(pdf_file, os.path.join(inbound_dir, 'html'))
-                # Process HTML to Excel
-                html_to_excel(html_file, parent_dir, pdf_file)
+    archive_dir = 'Archive'
 
+    # Merge and update Excel files for each company folder
+    merge_and_update_excel(inbound_dir, archive_dir)
 
-
-    time.sleep(5)  # Wait for 5 seconds before exiting
-
+# Execute the main function
 if __name__ == "__main__":
     main()
