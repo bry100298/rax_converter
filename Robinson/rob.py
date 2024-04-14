@@ -1,97 +1,125 @@
 import os
 import shutil
 import pandas as pd
-from xml.etree import ElementTree as ET
+from bs4 import BeautifulSoup
 import time
+import pdfplumber
+import tabula
 
-# Function to convert XML to Excel
-def xml_to_excel(xml_file, inbound_folder, outbound_folder, archive_folder, error_folder):
-    # Parse XML file
-    tree = ET.parse(xml_file)
-    root = tree.getroot()
+# Variable dictionary mapping company folders to company names
+company_names = {
+    'ROBS': "ROBINSONS SUPERMARKET ",
+    'ROBD': "ROBINSONS DEPARTMENT STORE "
+}
 
-    # Check if filename starts with "RA" (case sensitive)
-    if not os.path.basename(xml_file).startswith('RA'):
-        # Move file to Error Folder
-        print(f"Moving '{os.path.basename(xml_file)}' to Error Folder - File name doesn't start with 'RA'")
-        shutil.move(xml_file, os.path.join(error_folder, 'Error'))
-        # shutil.move(xml_file, 'C:/Users/User/Documents/Project/rax_converter/SM_Group/Error')
-        return
+# Function to convert PDF to HTML
+def pdf_to_html(pdf_file, output_folder):
+    # Generate HTML file path
+    html_file = os.path.join(output_folder, os.path.basename(pdf_file).replace('.pdf', '.html'))
 
-    # Check if XML file meets conditions
-    company_name = root.find('.//companyName')
-    if company_name is None or company_name.text.strip() != 'SANFORD MARKETING CORPORATION':
-        # Move file to Error Folder
-        print(f"Moving '{os.path.basename(xml_file)}' to Error Folder - Company name is incorrect")
-        shutil.move(xml_file, os.path.join(error_folder, 'Error'))
-        # shutil.move(xml_file, 'C:/Users/User/Documents/Project/rax_converter/SM_Group/Error')
-        return
+    # Extract tables from PDF
+    tables = tabula.read_pdf(pdf_file, pages='all')
 
-    # Extract data from XML
+    # Concatenate tables into a single DataFrame
+    concatenated_df = pd.concat(tables)
+
+    # Convert DataFrame to HTML
+    html_content = concatenated_df.to_html(index=False)
+
+    # Write HTML content to file
+    with open(html_file, 'w') as f:
+        f.write(html_content)
+
+    return html_file
+
+# Function to convert HTML to Excel
+def html_to_excel(html_file, parent_dir, pdf_file):
+    # Read HTML file
+    with open(html_file, 'r') as f:
+        html_content = f.read()
+
+    # Parse HTML
+    soup = BeautifulSoup(html_content, 'html.parser')
+
+    # Extract data from HTML and populate DataFrame
     data = []
-    for article in root.findall('.//article'):
-        trans_code = article.find('transCode').text
-        EDI_TransType = None
-        po_number = article.find('poNumber').text
-        doc_ref = article.find('docRef').text
-        EDI_DocRef = None
-        EDI_DocDesc = None
-        gross_amount = article.find('grossAmount').text
-        EDI_VAT = None
-        EDI_EWT = None
-        netAmount = article.find('netAmount').text
-        check_number = root.find('.//checkNumber').text
-        check_date = root.find('.//checkDate').text
-        #netPayable = root.find('//netPayable').text
+    for invoice_row in soup.find_all('tr'):
+        cells = invoice_row.find_all('td')
+        if len(cells) == 7:  # Assuming each row has 7 cells
+            company_folder = os.path.basename(os.path.dirname(pdf_file))
+            EDI_Customer = company_names[company_folder]
+            EDI_Company = None
+            EDI_DocType = cells[1].text.strip()  # Vendor Name
+            EDI_TransType = None
+            EDI_PORef = None
+            EDI_InvRef = cells[2].text.strip()  # Vendor Code
+            EDI_Gross = cells[3].text.strip()  # APID
+            EDI_Discount = None
+            EDI_EWT = None
+            EDI_Net = None
+            EDI_RARef = cells[4].text.strip()  # CV No
+            EDI_RADate = cells[5].text.strip()  # Payment Date
+            EDI_RAAmt = cells[6].text.strip()  # Total
 
-        # Extract netPayable directly from the root
-        netPayable_elem = root.find('.//netPayable')
-        netPayable = netPayable_elem.text if netPayable_elem is not None else None
-
-        # Append to data list
-        data.append([trans_code, EDI_TransType, po_number, doc_ref, EDI_DocRef, EDI_DocDesc, gross_amount, EDI_VAT, EDI_EWT, netAmount, check_number, check_date, netPayable])
+            data.append([EDI_Customer, EDI_Company, EDI_DocType, EDI_TransType, EDI_PORef, EDI_InvRef, EDI_Gross, EDI_Discount, EDI_EWT, EDI_Net, EDI_RARef, EDI_RADate, EDI_RAAmt])
 
     # Create DataFrame
-    df = pd.DataFrame(data, columns=['EDI_DocType', 'EDI_TransType', 'EDI_PORef', 'EDI_InvRef', 'EDI_DocRef', 'EDI_DocDesc', 'EDI_Gross', 'EDI_VAT', 'EDI_EWT', 'EDI_Net', 'EDI_RARef', 'EDI_RADate', 'EDI_RAAmt'])
+    df = pd.DataFrame(data, columns=['EDI_Customer', 'EDI_Company', 'EDI_DocType', 'EDI_TransType', 'EDI_PORef', 'EDI_InvRef', 'EDI_Gross', 'EDI_Discount', 'EDI_EWT', 'EDI_Net', 'EDI_RARef', 'EDI_RADate', 'EDI_RAAmt'])
 
     # Create Excel file path
-    excel_file = os.path.join(outbound_folder, os.path.basename(xml_file).replace('.xml', '.xlsx'))
+    company_folder = os.path.basename(os.path.dirname(pdf_file))
+    excel_folder = os.path.join(parent_dir, 'Inbound', 'Outbound', company_folder)
+    os.makedirs(excel_folder, exist_ok=True)
+    excel_file = os.path.join(excel_folder, os.path.basename(html_file).replace('.html', '.xlsx'))
 
     # Write DataFrame to Excel
     df.to_excel(excel_file, index=False)
 
     # Create Archive Folder if not exists
-    archive_excel_folder = os.path.join(archive_folder, 'excel')
-    if not os.path.exists(archive_excel_folder):
-        os.makedirs(archive_excel_folder)
+    archive_excel_folder = os.path.join(parent_dir, 'Archive', 'excel', company_folder)
+    os.makedirs(archive_excel_folder, exist_ok=True)
+
+    # Create Archive Folder if not exists
+    archive_html_folder = os.path.join(parent_dir, 'Archive', 'html', company_folder)
+    os.makedirs(archive_html_folder, exist_ok=True)
+
+    # Create Archive Folder if not exists
+    archive_pdf_folder = os.path.join(parent_dir, 'Archive', 'pdf', company_folder)
+    os.makedirs(archive_pdf_folder, exist_ok=True)
+    archive_folder = os.path.join(parent_dir, 'Archive')
+
+    # Move HTML file to Archive html Folder
+    shutil.move(html_file, os.path.join(archive_html_folder, os.path.basename(html_file)))
+
+    # Move PDF file to Archive pdf Folder
+    # shutil.move(pdf_file, os.path.join(archive_folder, 'pdf', company_folder))
+    shutil.move(pdf_file, os.path.join(archive_pdf_folder, os.path.basename(pdf_file)))
 
     # Copy Excel file to Archive excel Folder
     shutil.copy(excel_file, os.path.join(archive_excel_folder, os.path.basename(excel_file)))
 
-    # Move XML file to Archive xml Folder
-    shutil.move(xml_file, os.path.join(archive_folder, 'xml'))
-
     # Move Excel file to Outbound Folder
-    shutil.move(excel_file, 'C:/Users/User/Documents/Project/rax_converter/SM_Group/Outbound')
+    shutil.move(excel_file, os.path.join(parent_dir, 'Outbound', company_folder))
 
 # Main function
 def main():
-    # Path settings
-    inbound_folder = 'C:/Users/User/Documents/Project/rax_converter/SM_Group/Inbound'
-    outbound_folder = 'C:/Users/User/Documents/Project/rax_converter/SM_Group/Inbound/Outbound'
-    archive_folder = 'C:/Users/User/Documents/Project/rax_converter/SM_Group/Archive'
-    error_folder = 'C:/Users/User/Documents/Project/rax_converter/SM_Group'
-    #error_folder = 'C:/Users/User/Documents/Project/rax_converter/SM_Group/Error' #if use this , the filename will trigger instead of folder shutil.move(xml_file, os.path.join(error_folder, 'xml'))
+    parent_dir = 'Robinson'
 
-    # Iterate over XML files in Inbound Folder
-    for file in os.listdir(inbound_folder):
-        if file.endswith('.xml'):
-            xml_file = os.path.join(inbound_folder, file)
-            xml_to_excel(xml_file, inbound_folder, outbound_folder, archive_folder, error_folder)
+    # Iterate over PDF files in Inbound Folder
+    inbound_dir = os.path.join(parent_dir, 'Inbound')
+    for root_folder, dirs, files in os.walk(inbound_dir):
+        for file in files:
+            if file.endswith('.pdf'):
+                pdf_file = os.path.join(root_folder, file)
+                company_folder = os.path.basename(root_folder)
+                # Convert PDF to HTML in the company folder
+                html_file = pdf_to_html(pdf_file, os.path.join(inbound_dir, 'html'))
+                # Process HTML to Excel
+                html_to_excel(html_file, parent_dir, pdf_file)
 
-            # Move Excel file to Outbound Folder
-            #shutil.move(os.path.join(outbound_folder, os.path.basename(xml_file).replace('.xml', '.xlsx')), 'C:/Users/User/Documents/Project/rax_converter/SM_Group/Outbound')
-        time.sleep(15)  # Wait for 15 seconds before processing next file
+
+
+    time.sleep(5)  # Wait for 5 seconds before exiting
 
 if __name__ == "__main__":
     main()
