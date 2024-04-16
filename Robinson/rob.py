@@ -1,10 +1,18 @@
 import pandas as pd
 from datetime import datetime
 
+def clean_column_names(df):
+    # Remove trailing white spaces from column names
+    df.columns = df.columns.str.strip()
+
 def merge_excel_files_robd():
     # Read Excel files for ROBD
     summary_file = pd.read_excel("C:/Users/User/Documents/Project/rax_converter/Robinson/Inbound/ROBD/Outright Summary of Payments Date.xls")
     advice_file = pd.read_excel("C:/Users/User/Documents/Project/rax_converter/Robinson/Inbound/ROBD/Outright Payment Advice Date.xls")
+    
+    # Clean column names
+    clean_column_names(summary_file)
+    clean_column_names(advice_file)
     
     # Print data types of columns for debugging
     print("Summary File Data Types for ROBD:")
