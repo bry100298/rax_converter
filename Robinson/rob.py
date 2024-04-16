@@ -1,63 +1,44 @@
-import os
-import shutil
 import pandas as pd
 from datetime import datetime
 
-# Variable dictionary mapping company folders to company names
-company_names = {
-    'PPCI': "PUREGOLD PRICE CLUB INC.",
-    'AGRI': "AYAGOLD RETAILERS, INC."
-}
+def merge_excel_files_robd():
+    # Read Excel files for ROBD
+    summary_file = pd.read_excel("C:/Users/User/Documents/Project/rax_converter/Robinson/Inbound/ROBD/Outright Summary of Payments Date.xls")
+    advice_file = pd.read_excel("C:/Users/User/Documents/Project/rax_converter/Robinson/Inbound/ROBD/Outright Payment Advice Date.xls")
+    
+    # Print data types of columns for debugging
+    print("Summary File Data Types for ROBD:")
+    print(summary_file.dtypes)
+    print("\nAdvice File Data Types for ROBD:")
+    print(advice_file.dtypes)
+    
+    # Merge "Cheque Amount" from summary to advice file
+    advice_file["Cheque Amount"] = summary_file["Cheque Amount"]
+    
+    # Save the merged DataFrame to a new Excel file
+    save_path = f"C:/Users/User/Documents/Project/rax_converter/Robinson/Inbound/Merged/ROBD/opadosopd_{datetime.now().strftime('%Y%m%d%H%M%S')}.xlsx"
+    advice_file.to_excel(save_path, index=False)
+    print(f"Merged ROBD files saved to: {save_path}")
 
-# Function to merge Excel files
-def merge_files(company_folder):
-    # File paths
-    advice_file = os.path.join('Inbound', company_folder, 'Outright Payment Advice Date.xls')
-    summary_file = os.path.join('Inbound', company_folder, 'Outright Summary of Payments Date.xls')
-    print(f"Advice file path: {advice_file}")
-    print(f"Summary file path: {summary_file}")
+def merge_excel_files_robs():
+    # Read Excel files for ROBS
+    summary_file = pd.read_excel("C:/Users/User/Documents/Project/rax_converter/Robinson/Inbound/ROBS/Outright Summary of Payments Day.xlsx")
+    advice_file = pd.read_excel("C:/Users/User/Documents/Project/rax_converter/Robinson/Inbound/ROBS/Outright Payment Advice Day.xlsx")
+    
+    # Print data types of columns for debugging
+    print("Summary File Data Types for ROBS:")
+    print(summary_file.dtypes)
+    print("\nAdvice File Data Types for ROBS:")
+    print(advice_file.dtypes)
+    
+    # Merge "Cheque Amount" from summary to advice file
+    advice_file["Cheque Amount"] = summary_file["Cheque Amount"]
+    
+    # Save the merged DataFrame to a new Excel file
+    save_path = f"C:/Users/User/Documents/Project/rax_converter/Robinson/Inbound/Merged/ROBS/opadosopd_{datetime.now().strftime('%Y%m%d%H%M%S')}.xlsx"
+    advice_file.to_excel(save_path, index=False)
+    print(f"Merged ROBS files saved to: {save_path}")
 
-    # Read Excel files
-    advice_df = pd.read_excel(advice_file)
-    summary_df = pd.read_excel(summary_file)
-
-    # Merge and get Cheque Amount
-    merged_df = pd.merge(advice_df, summary_df[['Payment Ref No', 'Cheque Amount']], on='Payment Ref No', how='left')
-    merged_df.rename(columns={'Cheque Amount': 'EDI_RAAmt'}, inplace=True)
-
-    # Move files to Archive/Original
-    timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
-    os.makedirs(os.path.join('Archive', 'excel', 'Original', company_folder, timestamp), exist_ok=True)
-    shutil.move(advice_file, os.path.join('Archive', 'excel', 'Original', company_folder, timestamp, 'Outright Payment Advice Date.xls'))
-    shutil.move(summary_file, os.path.join('Archive', 'excel', 'Original', company_folder, timestamp, 'Outright Summary of Payments Date.xls'))
-
-    # Write merged file to Merged directory
-    os.makedirs(os.path.join('Inbound', 'Merged', company_folder), exist_ok=True)
-    merged_file = os.path.join('Inbound', 'Merged', company_folder, f'opadosopd_{timestamp}.xlsx')
-    merged_df.to_excel(merged_file, index=False)
-
-    # Move merged file to Archive/Original_Merged
-    os.makedirs(os.path.join('Archive', 'excel', 'Original_Merged', company_folder, timestamp), exist_ok=True)
-    shutil.move(merged_file, os.path.join('Archive', 'excel', 'Original_Merged', company_folder, timestamp, f'opadosopd_{timestamp}.xlsx'))
-
-    # Generate outbound file
-    os.makedirs(os.path.join('Inbound', 'Outbound', company_folder), exist_ok=True)
-    outbound_file = os.path.join('Inbound', 'Outbound', company_folder, f'opadosopd_{timestamp}.xlsx')
-    merged_df.to_excel(outbound_file, index=False)
-
-    # Create copy in Archive/Converted
-    os.makedirs(os.path.join('Archive', 'excel', 'Converted', company_folder, timestamp), exist_ok=True)
-    shutil.copy(outbound_file, os.path.join('Archive', 'excel', 'Converted', company_folder, timestamp, f'opadosopd_{timestamp}.xlsx'))
-
-    # Move merged file to Outbound directory
-    shutil.move(outbound_file, os.path.join('Inbound', 'Outbound', company_folder))
-
-# Main function
-def main():
-    # Iterate through company folders
-    company_folders = ['PPCI', 'AGRI']
-    for company_folder in company_folders:
-        merge_files(company_folder)
-
-if __name__ == "__main__":
-    main()
+# Call the functions to execute the merging process
+merge_excel_files_robd()
+merge_excel_files_robs()
