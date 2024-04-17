@@ -73,3 +73,8 @@ import pdfplumber
 
 </body>
 </html>
+
+
+It should be install in Rax_converter root folder in order to work for example
+PS C:\Users\User\Documents\Project\rax_converter>
+it does not work if you run the script in PS C:\Users\User\Documents\Project\rax_converter>\Robinson or anuthing.
