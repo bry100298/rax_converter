@@ -25,9 +25,10 @@ def move_to_archive(source_folder, target_folder):
     # Move files from source to target directory
     for root, dirs, files in os.walk(source_folder):
         for file in files:
-            source_file = os.path.join(root, file)
-            target_file = os.path.join(target_folder, file)
-            shutil.move(source_file, target_file)
+            if file != ".gitkeep":
+                source_file = os.path.join(root, file)
+                target_file = os.path.join(target_folder, file)
+                shutil.move(source_file, target_file)
 
 def merge_excel_files_robd(company_code):
     company_folder = company_names.get(company_code)
@@ -174,6 +175,25 @@ def generate_inbound_outbound_excel(company_folder, company_names):
     new_excel_file = os.path.join(outbound_dir, f"opadosopd_{datetime.now().strftime('%Y%m%d%H%M%S')}.xlsx")
     df_new.to_excel(new_excel_file, index=False)
     print(f"New Excel file generated and saved to: {new_excel_file}")
+
+    archive_original_merged_folder = os.path.join(parent_dir, 'Archive', 'excel', 'Original_Merged', company_folder)
+
+    # Move original_merged files to archive
+    move_to_archive(excel_dir, archive_original_merged_folder)
+    print("Original Merged files moved to archive.")
+
+    # shutil.move(excel_dir, os.path.join(archive_original_merged_folder, 'xlsx', company_folder))
+    # print("Original Merged files moved to archive.")
+
+    # outbound_dir_main = os.path.join(parent_dir, 'Outbound', company_folder)
+    archive_excel_converted = os.path.join(parent_dir, 'Archive', 'excel', 'Converted', company_folder)
+    # Copy Excel file to Archive excel Folder
+    shutil.copy(new_excel_file, archive_excel_converted)
+
+    outbound_dir_main = os.path.join(parent_dir, 'Outbound', company_folder)
+    shutil.move(new_excel_file, outbound_dir_main)
+
+
 
 # Call the functions to execute the merging process
 merge_excel_files_robd('ROBD')
