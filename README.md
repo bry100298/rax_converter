@@ -24,7 +24,8 @@ pip install openpyxl
 pip install beautifulsoup4</code></pre>
 pip install pdfplumber
 pip install --upgrade xlrd
-
+pip install pyinstaller
+pyinstaller your_script.py
 </code></pre>
     </li>
 </ol>
