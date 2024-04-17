@@ -24,8 +24,18 @@ pip install openpyxl
 pip install beautifulsoup4</code></pre>
 pip install pdfplumber
 pip install --upgrade xlrd
-pip install pyinstaller
+pip install pyinstaller #not working
 pyinstaller your_script.py
+
+pip install cx-Freeze #it does not work
+python setup.py build
+
+pip install py2exe #it does not work
+
+
+pip install nuitka
+nuitka sm_grp.py
+
 </code></pre>
     </li>
 </ol>
