@@ -172,7 +172,8 @@ def generate_inbound_outbound_excel(company_folder, company_names):
     outbound_dir = os.path.join(parent_dir, 'Inbound', 'Outbound', company_folder)
     if not os.path.exists(outbound_dir):
         os.makedirs(outbound_dir)
-    new_excel_file = os.path.join(outbound_dir, f"opadosopd_{datetime.now().strftime('%Y%m%d%H%M%S')}.xlsx")
+    # new_excel_file = os.path.join(outbound_dir, f"opadosopd_{datetime.now().strftime('%Y%m%d%H%M%S')}.xlsx")
+    new_excel_file = os.path.join(outbound_dir, f"{company_folder}_{datetime.now().strftime('%Y%m%d%H%M%S')}.xlsx")
     df_new.to_excel(new_excel_file, index=False)
     print(f"New Excel file generated and saved to: {new_excel_file}")
 
