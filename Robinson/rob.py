@@ -2,6 +2,7 @@ import pandas as pd
 from datetime import datetime
 import os
 import shutil
+from openpyxl import load_workbook
 
 # Define parent directory
 parent_dir = 'Robinson'
@@ -126,6 +127,57 @@ def merge_excel_files_robs(company_code):
     move_to_archive(inbound_folder, archive_folder)
     print("Original files moved to archive.")
 
+
+def generate_inbound_outbound_excel(company_folder, company_names):
+    # Get the company name based on the folder
+    EDI_Customer = company_names[company_folder]
+
+    # Load the data from the existing Excel file
+    excel_dir = os.path.join(parent_dir, 'Inbound', 'Merged', company_folder)
+    excel_files = [f for f in os.listdir(excel_dir) if f.endswith('.xlsx')]  # Filter out non-Excel files
+    if len(excel_files) == 0:
+        print("No Excel files found in the specified directory.")
+        return
+    
+    # Assuming there's only one Excel file in the directory
+    excel_file = excel_files[0]
+    excel_path = os.path.join(excel_dir, excel_file)
+    print("Excel file path:", excel_path)  # Added print statement to check the file path
+    try:
+        df_existing = pd.read_excel(excel_path, engine='openpyxl')  # Specify the engine as 'openpyxl'
+    except Exception as e:
+        print("Error occurred while reading Excel file:", e)  # Print any errors that occur
+        return
+
+    # Generate a new DataFrame with the desired columns
+    data = {
+        'EDI_Customer': [EDI_Customer] * len(df_existing),  # Repeat the customer name for each row
+        'EDI_Company': df_existing['VENDOR'],   # Placeholder for company name
+        'EDI_DocType': df_existing['Transaction_Type'], # Placeholder for document type
+        'EDI_TransType': [None] * len(df_existing),
+        'EDI_PORef': df_existing['PO Number.'],  # Assuming "PO Number" is the exact field name
+        'EDI_InvRef': df_existing['Invoice No'],  # Assuming "Invoice No" is the exact field name
+        'EDI_Gross': df_existing['RC Amount'],  # Assuming "RC Amount" is the exact field name
+        'EDI_Discount': [None] * len(df_existing),
+        'EDI_EWT': df_existing['EWT'],  # Assuming "EWT" is the exact field name
+        'EDI_Net': df_existing['NET AMOUNT'],  # Assuming "NET AMOUNT" is the exact field name
+        'EDI_RARef': df_existing['Payment Ref No'],  # Assuming "Payment Ref No" is the exact field name
+        'EDI_RADate': [None] * len(df_existing),  # Placeholder for payment date
+        'EDI_RAAmt': df_existing['Cheque Amount']  # Assuming "Cheque Amount" is the exact field name
+    }
+    df_new = pd.DataFrame(data)
+
+    # Save the DataFrame to a new Excel file
+    outbound_dir = os.path.join(parent_dir, 'Inbound', 'Outbound', company_folder)
+    if not os.path.exists(outbound_dir):
+        os.makedirs(outbound_dir)
+    new_excel_file = os.path.join(outbound_dir, f"opadosopd_{datetime.now().strftime('%Y%m%d%H%M%S')}.xlsx")
+    df_new.to_excel(new_excel_file, index=False)
+    print(f"New Excel file generated and saved to: {new_excel_file}")
+
 # Call the functions to execute the merging process
 merge_excel_files_robd('ROBD')
 merge_excel_files_robs('ROBS')
+
+generate_inbound_outbound_excel('ROBD', company_names)
+generate_inbound_outbound_excel('ROBS', company_names)
