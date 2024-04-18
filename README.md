@@ -3,48 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Installation and Usage Guide</title>
+    <title>Rax Converter</title>
 </head>
 <body>
 
-<h1>Installation and Usage Guide</h1>
+<h1>Rax Converter</h1>
+
+<h2>Introduction</h2>
+
+<p>This tool is designed to perform conversions for Rax. It includes Python scripts to handle various data manipulation tasks.</p>
 
 <h2>Installation</h2>
 
+<h3>Prerequisites</h3>
+
+<ul>
+    <li>Python 3.10 or higher</li>
+</ul>
+
+<h3>Setup Instructions</h3>
+
 <ol>
     <li>
-        <strong>Install Python 3.12.2:</strong><br>
-        You can download and install Python 3.12.2 from the <a href="https://www.python.org/downloads/">official Python website</a>.
+        <strong>Clone Repository:</strong> Clone this repository to your local machine.
     </li>
     <li>
-        <strong>Install Required Packages:</strong><br>
-        Run the following commands to install the necessary packages:
+        <strong>Navigate to Root Folder:</strong> Open your terminal or command prompt and navigate to the root folder of the cloned repository.
+    </li>
+    <li>
+        <strong>Create Virtual Environment:</strong> It's recommended to create a virtual environment to isolate dependencies. Run the following commands to create and activate a virtual environment:
+        <pre><code>python -m venv rax_env
+source rax_env/bin/activate    # On Windows, use "rax_env\Scripts\activate"</code></pre>
+    </li>
+    <li>
+        <strong>Install Dependencies:</strong> Install the required Python packages using pip:
         <pre><code>pip install pandas
 pip install openpyxl
-pip install beautifulsoup4</code></pre>
+pip install beautifulsoup4
 pip install pdfplumber
-pip install --upgrade xlrd
-pip install pyinstaller #not working
-pyinstaller your_script.py
-
-pip install cx-Freeze #it does not work
-python setup.py build
-python setup.py bdist_msi
-
-
-
-
-pip install py2exe #it does not work
-
-
+pip install tabula-py
+pip install jpype1
+pip install xlrd
+pip install pyinstaller
+pip install cx-Freeze
+pip install py2exe
 pip install nuitka
-nuitka sm_grp.py
-
-</code></pre>
+pip install auto-py-to-exe</code></pre>
+    </li>
+    <li>
+        <strong>Run the Script:</strong> Once the virtual environment is activated and dependencies are installed, you can run the Python scripts from the root folder of the project. For example:
+        <pre><code>python SM_Group/SM_GrpConverter.py</code></pre>
     </li>
 </ol>
 
-<h2>Required Imports for Python Scripts</h2>
+<h2>Usage</h2>
+
+<p>After following the installation steps, you can utilize the provided Python scripts for your desired conversions. Ensure that you include the necessary imports mentioned below in your Python scripts.</p>
+
+<h3>Required Imports for Python Scripts</h3>
 
 <p>Make sure to include the following imports in your Python scripts:</p>
 
@@ -54,49 +70,23 @@ import pandas as pd
 from datetime import datetime
 from xml.etree import ElementTree as ET
 import time
-from bs4 import BeautifulSoup</code></pre>
-
-<h2>Usage</h2>
-
-<p>After installing Python and the required packages, you can use the provided Python scripts. Make sure to include the required imports mentioned above in your Python scripts.</p>
-
-<pre><code># Example Python script using the required imports
-import os
-import shutil
-import pandas as pd
-from datetime import datetime
-from xml.etree import ElementTree as ET
-import time
 from bs4 import BeautifulSoup
-import pdfplumber
+import pdfplumber</code></pre>
 
-# Your code here...
-</code></pre>
+
+<h2>Dependencies</h2>
+<ul>
+    <li>Python 3.10.1</li>
+    <li>pandas</li>
+</ul>
+<h2>Author</h2>
+<p>Created by James Bryant Tin.</p>
+<h2>License</h2>
+<p>This project is licensed under the [License Name] License - see the [LICENSE.md](link-to-license-file) file for details.</p>
+
 
 <p>Feel free to customize this README.md file as needed for your project.</p>
 
+
 </body>
 </html>
-
-
-It should be install in Rax_converter root folder in order to work for example
-PS C:\Users\User\Documents\Project\rax_converter>
-it does not work if you run the script in PS C:\Users\User\Documents\Project\rax_converter>\Robinson or anuthing.
-
-
-create an environment
-C:\Users\User\AppData\Local\Programs\Python\Python310\
-/path/to/python3.10 -m venv rax3_10
-C:\Users\User\AppData\Local\Programs\Python\Python310 -m venv rax3_10
-
-PS C:\Users\User\Documents\Project\rax_converter\SM_Group> .\SM_GrpConverter.exe
-pyinstaller --onefile --name SM_GrpConverter --hidden-import pandas sm_grp.py
-
-
-if python version can view as python --version no need to put python3.10 just use python -m straightforward
-python -m venv rax3_10
-source rax3_10/Scripts/activate
-cd /c/Users/User/Documents/Project/rax_converter/SM_Group
-
-source /c/Users/User/Documents/Project/python_projects/rax3_10/Scripts/activate
-python sm_grp.py

@@ -33,61 +33,66 @@
 </head>
 <body>
 
-<h2>Script Flow Diagram</h2>
+<h2>Script Overview</h2>
 
 <ul>
-    <li>Start
-        <ul>
-            <li>Check Inbound Folder for XML files
-                <ul>
-                    <li>Iterate over XML files
-                        <ul>
-                            <li>Check if filename starts with "RA" (case sensitive)
-                                <ul>
-                                    <li>Yes: Continue</li>
-                                    <li>No: Move file to Error Folder and Return</li>
-                                </ul>
-                            </li>
-                            <li>Parse XML file</li>
-                            <li>Check if company name is "SANFORD MARKETING CORPORATION"
-                                <ul>
-                                    <li>Yes: Continue</li>
-                                    <li>No: Move file to Error Folder and Return</li>
-                                </ul>
-                            </li>
-                            <li>Extract data from XML</li>
-                            <li>Create DataFrame</li>
-                            <li>Create Excel file path</li>
-                            <li>Write DataFrame to Excel</li>
-                            <li>Create Archive Folder if not exists</li>
-                            <li>Copy Excel file to Archive excel Folder</li>
-                            <li>Move XML file to Archive xml Folder</li>
-                            <li>Move Excel file from Inbound\Outbound to Outbound Folder</li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </li>
-    <li>End</li>
+    <li>The Robinson script processes Excel files for Robinsons Supermarket and Robinsons Department Store.</li>
+    <li>It merges specific Excel files and generates outbound Excel files for each company.</li>
 </ul>
 
 <h2>Description</h2>
 
 <ul>
-    <li>This diagram outlines the main steps performed by the script:</li>
-    <li>Starts by checking the Inbound Folder for XML files.</li>
-    <li>Iterates over each XML file found and performs the following actions:</li>
-    <li>Checks if the filename starts with "RA" and if the company name is "SANFORD MARKETING CORPORATION".</li>
-    <li>If conditions are met, the script extracts data from the XML file, creates a DataFrame, and writes it to an Excel file.</li>
-    <li>Archives the Excel file and moves both the XML and Excel files to their respective archive folders.</li>
-    <li>Moves the Excel file to the Outbound Folder.</li>
-    <li>Additionally, there's a delay of 15 seconds between processing each XML file, implemented using the <code>time.sleep()</code> function.</li>
+    <li>The script performs the following actions:</li>
+    <li>Reads specific Excel files from the Inbound folder.</li>
+    <li>Merges data from these files and saves them as new Excel files.</li>
+    <li>Generates outbound Excel files with customized columns for each company.</li>
 </ul>
 
-<img src="https://i.imgur.com/0piWgBm.png" alt="Script Flow Diagram">
+<h2>Functionality</h2>
 
-<p>Feel free to customize this README.md file as needed for your project.</p>
+<ul>
+    <li><strong>merge_excel_files_robd(company_code):</strong></li>
+    <ul>
+        <li>Merges specific Excel files for Robinsons Department Store.</li>
+        <li>Saves the merged data to a new Excel file.</li>
+        <li>Archives original files.</li>
+    </ul>
+    <li><strong>merge_excel_files_robs(company_code):</strong></li>
+    <ul>
+        <li>Merges specific Excel files for Robinsons Supermarket.</li>
+        <li>Saves the merged data to a new Excel file.</li>
+        <li>Archives original files.</li>
+    </ul>
+    <li><strong>generate_inbound_outbound_excel(company_folder, company_names):</strong></li>
+    <ul>
+        <li>Generates outbound Excel files with customized columns for each company.</li>
+        <li>Archives original merged files.</li>
+    </ul>
+</ul>
+
+<h2>Dependencies</h2>
+
+<ul>
+    <li>Python 3.x</li>
+    <li>pandas</li>
+    <li>openpyxl</li>
+</ul>
+
+<h2>Usage</h2>
+
+<ul>
+    <li>Ensure Python and required libraries are installed.</li>
+    <li>Run the script with appropriate Excel files in the Inbound folder.</li>
+</ul>
+
+<h2>Author</h2>
+
+<p>Created by [Your Name].</p>
+
+<h2>License</h2>
+
+<p>This project is licensed under the [License Name] License - see the [LICENSE.md](link-to-license-file) file for details.</p>
 
 </body>
 </html>

@@ -49,12 +49,6 @@
                                 </ul>
                             </li>
                             <li>Parse XML file</li>
-                            <li>Check if company name is "SANFORD MARKETING CORPORATION"
-                                <ul>
-                                    <li>Yes: Continue</li>
-                                    <li>No: Move file to Error Folder and Return</li>
-                                </ul>
-                            </li>
                             <li>Extract data from XML</li>
                             <li>Create DataFrame</li>
                             <li>Create Excel file path</li>
@@ -78,11 +72,11 @@
     <li>This diagram outlines the main steps performed by the script:</li>
     <li>Starts by checking the Inbound Folder for XML files.</li>
     <li>Iterates over each XML file found and performs the following actions:</li>
-    <li>Checks if the filename starts with "RA" and if the company name is "SANFORD MARKETING CORPORATION".</li>
+    <li>Checks if the filename starts with "RA".</li>
     <li>If conditions are met, the script extracts data from the XML file, creates a DataFrame, and writes it to an Excel file.</li>
     <li>Archives the Excel file and moves both the XML and Excel files to their respective archive folders.</li>
     <li>Moves the Excel file to the Outbound Folder.</li>
-    <li>Additionally, there's a delay of 15 seconds between processing each XML file, implemented using the <code>time.sleep()</code> function.</li>
+    <li>Additionally, there's a delay of 5 seconds before exiting the script, implemented using the <code>time.sleep()</code> function.</li>
 </ul>
 
 <img src="https://i.imgur.com/0piWgBm.png" alt="Script Flow Diagram">
