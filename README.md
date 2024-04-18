@@ -33,7 +33,19 @@
     <li>
         <strong>Create Virtual Environment:</strong> It's recommended to create a virtual environment to isolate dependencies. Run the following commands to create and activate a virtual environment:
         <pre><code>python -m venv rax_env
-source rax_env/bin/activate    # On Windows, use "rax_env\Scripts\activate"</code></pre>
+
+####
+source rax_env/bin/activate    # On Windows, use "rax_env\Scripts\activate"
+####
+source <your_virtual_env>/bin/activate  # for Unix/Linux
+#### or
+<your_virtual_env>\Scripts\activate    # for Windows
+
+
+
+
+deactivate
+</code></pre>
     </li>
     <li>
         <strong>Install Dependencies:</strong> Install the required Python packages using pip:
@@ -73,7 +85,6 @@ import time
 from bs4 import BeautifulSoup
 import pdfplumber</code></pre>
 
-
 <h2>Dependencies</h2>
 <ul>
     <li>Python 3.10.1</li>
@@ -84,9 +95,24 @@ import pdfplumber</code></pre>
 <h2>License</h2>
 <p>This project is licensed under the [License Name] License - see the [LICENSE.md](link-to-license-file) file for details.</p>
 
+<p>To remove all .gitkeep</p>
+<pre><code>
+find . -type f -name ".gitkeep" -exec rm {} \;
+find . -type f -name ".gitkeep"
+find . -type f -name ".git*" -exec rm {} \;
+find . -type f -name ".git*"
+rm -rf .git
+</code></pre>
+
+<p>Use requirement.txt to see the dependencies version</p>
+
+<pre><code>
+pip install -r requirements.txt
+pip list
+python -m pip list
+</code></pre>
 
 <p>Feel free to customize this README.md file as needed for your project.</p>
-
 
 </body>
 </html>
