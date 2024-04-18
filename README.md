@@ -29,6 +29,10 @@ pyinstaller your_script.py
 
 pip install cx-Freeze #it does not work
 python setup.py build
+python setup.py bdist_msi
+
+
+
 
 pip install py2exe #it does not work
 
@@ -78,3 +82,21 @@ import pdfplumber
 It should be install in Rax_converter root folder in order to work for example
 PS C:\Users\User\Documents\Project\rax_converter>
 it does not work if you run the script in PS C:\Users\User\Documents\Project\rax_converter>\Robinson or anuthing.
+
+
+create an environment
+C:\Users\User\AppData\Local\Programs\Python\Python310\
+/path/to/python3.10 -m venv rax3_10
+C:\Users\User\AppData\Local\Programs\Python\Python310 -m venv rax3_10
+
+PS C:\Users\User\Documents\Project\rax_converter\SM_Group> .\SM_GrpConverter.exe
+pyinstaller --onefile --name SM_GrpConverter --hidden-import pandas sm_grp.py
+
+
+if python version can view as python --version no need to put python3.10 just use python -m straightforward
+python -m venv rax3_10
+source rax3_10/Scripts/activate
+cd /c/Users/User/Documents/Project/rax_converter/SM_Group
+
+source /c/Users/User/Documents/Project/python_projects/rax3_10/Scripts/activate
+python sm_grp.py
