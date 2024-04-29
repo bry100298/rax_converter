@@ -54,8 +54,8 @@ def merge_excel_files_robd(company_code):
         return
     
     # Read Excel files for the given company
-    summary_file = pd.read_excel(summary_file_path, skiprows=12)
-    advice_file = pd.read_excel(advice_file_path, skiprows=14)
+    summary_file = pd.read_excel(summary_file_path, skiprows=12, dtype=str)
+    advice_file = pd.read_excel(advice_file_path, skiprows=14, dtype=str)
     
     # Clean column names
     clean_column_names(summary_file)
@@ -69,7 +69,11 @@ def merge_excel_files_robd(company_code):
     
     # Merge "Cheque Amount" from summary to advice file
     advice_file["Cheque Amount"] = summary_file["Cheque Amount"]
-    
+    advice_file["Payment Date"] = summary_file["Payment Date"]  # Add Payment Date column
+
+    # Format 'Payment Ref No' column to have leading zeros and a fixed width of 10 characters
+    # advice_file["Payment Ref No"] = advice_file["Payment Ref No"].astype(str).str.zfill(10)
+
     # Save the merged DataFrame to a new Excel file
     save_path = os.path.join(merged_folder, f"opadosopd_{datetime.now().strftime('%Y%m%d%H%M%S')}.xlsx")
     advice_file.to_excel(save_path, index=False)
@@ -103,8 +107,8 @@ def merge_excel_files_robs(company_code):
         return
     
     # Read Excel files for the given company
-    summary_file = pd.read_excel(summary_file_path, skiprows=13)
-    advice_file = pd.read_excel(advice_file_path, skiprows=15)
+    summary_file = pd.read_excel(summary_file_path, skiprows=13, dtype=str)
+    advice_file = pd.read_excel(advice_file_path, skiprows=15, dtype=str)
     
     # Clean column names
     clean_column_names(summary_file)
@@ -118,6 +122,7 @@ def merge_excel_files_robs(company_code):
     
     # Merge "Cheque Amount" from summary to advice file
     advice_file["Cheque Amount"] = summary_file["Cheque Amount"]
+    advice_file["Payment Date."] = summary_file["Payment Date."]  # Add Payment Date column
     
     # Save the merged DataFrame to a new Excel file
     save_path = os.path.join(merged_folder, f"opadosopd_{datetime.now().strftime('%Y%m%d%H%M%S')}.xlsx")
@@ -145,7 +150,8 @@ def generate_inbound_outbound_excel(company_folder, company_names):
     excel_path = os.path.join(excel_dir, excel_file)
     print("Excel file path:", excel_path)  # Added print statement to check the file path
     try:
-        df_existing = pd.read_excel(excel_path, engine='openpyxl')  # Specify the engine as 'openpyxl'
+        # df_existing = pd.read_excel(excel_path, engine='openpyxl')  # Specify the engine as 'openpyxl'
+        df_existing = pd.read_excel(excel_path, engine='openpyxl', dtype=str)  # Specify dtype as str to treat all columns as strings
     except Exception as e:
         print("Error occurred while reading Excel file:", e)  # Print any errors that occur
         return
@@ -163,7 +169,12 @@ def generate_inbound_outbound_excel(company_folder, company_names):
         'EDI_EWT': df_existing['EWT'],  # Assuming "EWT" is the exact field name
         'EDI_Net': df_existing['NET AMOUNT'],  # Assuming "NET AMOUNT" is the exact field name
         'EDI_RARef': df_existing['Payment Ref No'],  # Assuming "Payment Ref No" is the exact field name
-        'EDI_RADate': [None] * len(df_existing),  # Placeholder for payment date
+        # 'EDI_RARef': df_existing['Payment Ref No'].astype(int).astype(str).str.zfill(10),
+        # 'EDI_RARef': df_existing['Payment Ref No'].fillna(0).astype(int).astype(str).str.zfill(10),
+
+        # 'EDI_RADate': [None] * len(df_existing),  # Placeholder for payment date
+        # 'EDI_RADate': df_existing['Payment Date'],
+        'EDI_RADate': df_existing.get('Payment Date', df_existing.get('Payment Date.')),  # Use get() to handle both variations
         'EDI_RAAmt': df_existing['Cheque Amount']  # Assuming "Cheque Amount" is the exact field name
     }
     df_new = pd.DataFrame(data)
