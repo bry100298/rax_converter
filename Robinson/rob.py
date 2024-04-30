@@ -67,10 +67,17 @@ def merge_excel_files_robd(company_code):
     print(f"\nAdvice File Data Types for {company_code}:")
     print(advice_file.dtypes)
     
+    # Merge based on "Payment Ref No" column
+    merged_df = pd.merge(advice_file, summary_file[['Payment Ref No', 'Cheque Amount']], on='Payment Ref No', how='left')
+
     # Merge "Cheque Amount" from summary to advice file
-    advice_file["Cheque Amount"] = summary_file["Cheque Amount"]
+    # advice_file["Cheque Amount"] = summary_file["Cheque Amount"]
+
+    # Update "Cheque Amount" column in advice file with values from summary file where applicable
+    advice_file["Cheque Amount"] = merged_df["Cheque Amount"]
+
     advice_file["Payment Date"] = summary_file["Payment Date"]  # Add Payment Date column
-    advice_file["Payment Ref No"] = summary_file["Payment Ref No"]  # Add Payment Date column
+    # advice_file["Payment Ref No"] = summary_file["Payment Ref No"]  # Add Payment Date column
 
     # Format 'Payment Ref No' column to have leading zeros and a fixed width of 10 characters
     # advice_file["Payment Ref No"] = advice_file["Payment Ref No"].astype(str).str.zfill(10)
@@ -121,10 +128,18 @@ def merge_excel_files_robs(company_code):
     print(f"\nAdvice File Data Types for {company_code}:")
     print(advice_file.dtypes)
     
+
+    # Merge based on "Payment Ref No" column
+    merged_df = pd.merge(advice_file, summary_file[['Payment Ref No', 'Cheque Amount']], on='Payment Ref No', how='left')
+
     # Merge "Cheque Amount" "Payment Date." and "Payment Ref No"
-    advice_file["Cheque Amount"] = summary_file["Cheque Amount"]
+    # advice_file["Cheque Amount"] = summary_file["Cheque Amount"]
+
+    # Update "Cheque Amount" column in advice file with values from summary file where applicable
+    advice_file["Cheque Amount"] = merged_df["Cheque Amount"]
+    
     advice_file["Payment Date."] = summary_file["Payment Date."]  # Add Payment Date column
-    advice_file["Payment Ref No"] = summary_file["Payment Ref No"]  # Add Payment Date column
+    # advice_file["Payment Ref No"] = summary_file["Payment Ref No"]  # Add Payment Date column
     
     # Save the merged DataFrame to a new Excel file
     save_path = os.path.join(merged_folder, f"opadosopd_{datetime.now().strftime('%Y%m%d%H%M%S')}.xlsx")
