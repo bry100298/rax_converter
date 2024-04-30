@@ -44,7 +44,10 @@ def xml_to_excel(xml_file, parent_dir):
     for article in root.findall('.//article'):
         company_folder = os.path.basename(os.path.dirname(xml_file))
         trans_code = article.find('Document_Type').text
-        po_number = article.find('Remarks').text
+        # po_number = article.find('Remarks').text
+        po_number = article.find('Remarks').text.split('#', 1)[-1].strip() if article.find('Remarks') is not None else None
+        # remarks_element = article.find('Remarks')
+        # po_number = remarks_element.text.split('#', 1)[-1].strip() if remarks_element is not None else None
         doc_number = article.find('Document_Number').text
         gross_amount = article.find('Invoice_Amount').text
         wTax = article.find('.//WTAX').text
