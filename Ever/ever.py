@@ -6,6 +6,9 @@ import time
 import pdfplumber
 import tabula
 
+# Set the CLASSPATH environment variable to include the tabula jar file
+# os.environ['CLASSPATH'] = 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\tabula\\tabula-1.0.5-jar-with-dependencies.jar'
+
 # Variable dictionary mapping company folders to company names
 company_names = {
     'EVRP': "EVER PLUS SUPERSTORE, INC"
@@ -18,6 +21,7 @@ def pdf_to_html(pdf_file, output_folder):
 
     # Extract tables from PDF
     tables = tabula.read_pdf(pdf_file, pages='all')
+
 
     # Concatenate tables into a single DataFrame
     concatenated_df = pd.concat(tables)

@@ -112,6 +112,17 @@ pip list
 python -m pip list
 </code></pre>
 
+
+
+
+<h2>Updating README.md for pyinstaller inclusion of tabula jar file
+
+To ensure that the tabula jar file is included when using pyinstaller with `ever.py`, you need to manually add it as a data file. Here's how to do it efficiently:</h2>
+<pre><code>
+pyinstaller --noconfirm --onefile --console --icon "C:/Users/User/Downloads/benbytree_icon.ico" --add-data "C:/Users/User/AppData/Local/Programs/Python/Python310/Lib/site-packages/tabula/tabula-1.0.5-jar-with-dependencies.jar;tabula" "C:/Users/User/Documents/Project/rax_converter/ever.py"
+</code></pre>
+
+
 <p>Feel free to customize this README.md file as needed for your project.</p>
 
 </body>
