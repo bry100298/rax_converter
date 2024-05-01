@@ -123,7 +123,103 @@ pyinstaller --noconfirm --onefile --console --icon "C:/Users/User/Downloads/benb
 </code></pre>
 
 
+<h2>To create custom_jre /rax_converter/custom_jre;./jre | dependencies.jar;./tabula | --add-data for ./jre</h2>
+<pre><code>
+jlink --module-path "C:\RedhatJava\Java17\java-17-openjdk-17.0.10.0.7-2.win.x86_64\jmods" --add-modules java.base,java.logging,java.xml --output custom_jre
+</code></pre>
+<pre><code>
+pyinstaller --noconfirm --onefile --console --icon "C:/Users/User/Downloads/benbytree_icon.ico" --add-data "C:/Users/User/Documents/Project/rax_converter/custom_jre;./jre" --add-data "C:/Users/User/AppData/Local/Programs/Python/Python310/Lib/site-packages/tabula/tabula-1.0.5-jar-with-dependencies.jar;./tabula" --hidden-import jpype "C:/Users/User/Documents/Project/rax_converter/ever.py"
+</code></pre>
+
+<h2>/rax_converter/custom_jre;custom_jre | dependencies.jar;tabula | --add-data for custom_jre</h2>
+<pre><code>
+pyinstaller --noconfirm --onefile --console --icon "C:/Users/User/Downloads/benbytree_icon.ico" --add-data "C:/Users/User/Documents/Project/rax_converter/custom_jre;custom_jre" --add-data "C:/Users/User/AppData/Local/Programs/Python/Python310/Lib/site-packages/tabula/tabula-1.0.5-jar-with-dependencies.jar;tabula" --hidden-import jpype "C:/Users/User/Documents/Project/rax_converter/ever.py"
+</code></pre>
+
+<h2>Starting of using --add-binary for custom_jre</h2>
+<pre><code>
+pyinstaller --noconfirm --onefile --console --icon "C:/Users/User/Downloads/benbytree_icon.ico" --add-binary "C:/Users/User/Documents/Project/rax_converter/custom_jre;custom_jre" --add-data "C:/Users/User/AppData/Local/Programs/Python/Python310/Lib/site-packages/tabula/tabula-1.0.5-jar-with-dependencies.jar;tabula" --hidden-import jpype "C:/Users/User/Documents/Project/rax_converter/ever.py"
+</code></pre>
+
+<h2>Starting of getting direct to C:/RedhatJava/Java17/java-17-openjdk-17.0.10.0.7-2.win.x86_64/bin/server/jvm.dll;jre/bin/server
+
+and removing --hidden-import jpype
+
+--add-binary "C:/Users/User/AppData/Local/Programs/Python/Python310/Lib/site-packages/jpype;lib/jpype"
+</h2>
+<pre><code>
+pyinstaller --noconfirm --onefile --console --icon "C:/Users/User/Downloads/benbytree_icon.ico" --add-binary "C:/RedhatJava/Java17/java-17-openjdk-17.0.10.0.7-2.win.x86_64/bin/server/jvm.dll;jre/bin/server" --add-binary "C:/Users/User/AppData/Local/Programs/Python/Python310/Lib/site-packages/jpype;lib/jpype" --add-data "C:/Users/User/AppData/Local/Programs/Python/Python310/Lib/site-packages/tabula/tabula-1.0.5-jar-with-dependencies.jar;tabula" "C:/Users/User/Documents/Project/rax_converter/ever.py"
+</code></pre>
+
+
+<h2>60mb   --add-data for jpype because /jpype/*.py;jpype</h2>
+<pre><code>
+pyinstaller --noconfirm --onefile --console --icon "C:/Users/User/Downloads/benbytree_icon.ico" --add-binary "C:/RedhatJava/Java17/java-17-openjdk-17.0.10.0.7-2.win.x86_64/bin/server/jvm.dll;jre/bin/server" --add-data "C:/Users/User/AppData/Local/Programs/Python/Python310/Lib/site-packages/jpype/*.py;jpype" --add-data "C:/Users/User/AppData/Local/Programs/Python/Python310/Lib/site-packages/tabula/tabula-1.0.5-jar-with-dependencies.jar;tabula" "C:/Users/User/Documents/Project/rax_converter/ever.py"
+</code></pre>
+
+
+<h2>60mb    --add-data for jpype because /jpype;jpype</h2>
+<pre><code>
+pyinstaller --noconfirm --onefile --console --icon "C:/Users/User/Downloads/benbytree_icon.ico" --add-binary "C:/RedhatJava/Java17/java-17-openjdk-17.0.10.0.7-2.win.x86_64/bin/server/jvm.dll;jre/bin/server" --add-data "C:/Users/User/AppData/Local/Programs/Python/Python310/Lib/site-packages/jpype;jpype" --add-data "C:/Users/User/AppData/Local/Programs/Python/Python310/Lib/site-packages/tabula/tabula-1.0.5-jar-with-dependencies.jar;tabula" "C:/Users/User/Documents/Project/rax_converter/ever.py"
+</code></pre>
+
+<h2>60mb   --add-data for jpype because /jpype;jpype and -hidden-import jpype</h2>
+<pre><code>
+pyinstaller --noconfirm --onefile --console --icon "C:/Users/User/Downloads/benbytree_icon.ico" --add-binary "C:/RedhatJava/Java17/java-17-openjdk-17.0.10.0.7-2.win.x86_64/bin/server/jvm.dll;jre/bin/server" --add-data "C:/Users/User/AppData/Local/Programs/Python/Python310/Lib/site-packages/jpype;jpype" --add-data "C:/Users/User/AppData/Local/Programs/Python/Python310/Lib/site-packages/tabula/tabula-1.0.5-jar-with-dependencies.jar;tabula" --hidden-import jpype "C:/Users/User/Documents/Project/rax_converter/ever.py"
+</code></pre>
+
+
+
+<h1>We dont need jpype or jvm, just installed directly it will work</h1>
+<h2>56mb   -Removing --hidden-import jpype and Removing /jpype;jpype and removing jvm.dll</h2>
+<pre><code>
+pyinstaller --noconfirm --onefile --console --icon "C:/Users/User/Downloads/benbytree_icon.ico" --add-data "C:/Users/User/AppData/Local/Programs/Python/Python310/Lib/site-packages/tabula/tabula-1.0.5-jar-with-dependencies.jar;tabula" "C:/Users/User/Documents/Project/rax_converter/ever.py"
+</code></pre>
+
 <p>Feel free to customize this README.md file as needed for your project.</p>
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pyinstaller --noconfirm --onefile --console --icon "C:/Users/User/Downloads/benbytree_icon.ico" --runtime-hook "hook-jpylyzer.py" --add-binary "C:\Users\User\Documents\Project\rax_converter\custom_jre\bin;bin" --add-data "C:/Users/User/AppData/Local/Programs/Python/Python310/Lib/site-packages/tabula/tabula-1.0.5-jar-with-dependencies.jar;tabula" "C:/Users/User/Documents/Project/rax_converter/ever.py"
+
+
+os.environ['JAVA_HOME'] = os.path.abspath('./custom_jre')
+--79mb but no --runtime-hook "hook-jpylyzer.py"
+pyinstaller --noconfirm --onefile --console --icon "C:/Users/User/Downloads/benbytree_icon.ico" --add-binary "C:/RedhatJava/Java17/java-17-openjdk-17.0.10.0.7-2.win.x86_64/bin/server/jvm.dll;jre/bin/server" --add-data "C:/Users/User/Documents/Project/rax_converter/custom_jre;custom_jre" --add-data "C:/Users/User/AppData/Local/Programs/Python/Python310/Lib/site-packages/tabula/tabula-1.0.5-jar-with-dependencies.jar;tabula" --hidden-import jpype "C:/Users/User/Documents/Project/rax_converter/ever.py"
+
+
+
+
+
+
+
+
+
+
+
+
+
+pyinstaller --noconfirm --onefile --console --icon "C:/Users/User/Downloads/benbytree_icon.ico" --add-binary "C:/RedhatJava/Java17/java-17-openjdk-17.0.10.0.7-2.win.x86_64/bin/server/jvm.dll;jre/bin/server" --add-data "C:/Users/User/Documents/Project/rax_converter/custom_jre;jre" --add-data "C:/Users/User/AppData/Local/Programs/Python/Python310/Lib/site-packages/tabula/tabula-1.0.5-jar-with-dependencies.jar;tabula" --hidden-import jpype "C:/Users/User/Documents/Project/rax_converter/ever.py"
+
+
+
+
+#last failed
+pyinstaller --noconfirm --onefile --console --icon "C:/Users/User/Downloads/benbytree_icon.ico" --runtime-hook "hook-jpylyzer.py" --add-binary "C:\Users\User\Documents\Project\rax_converter\custom_jre\bin;bin" --add-data "C:/Users/User/AppData/Local/Programs/Python/Python310/Lib/site-packages/tabula/tabula-1.0.5-jar-with-dependencies.jar;tabula" "C:/Users/User/Documents/Project/rax_converter/ever.py"
+
+
+pyinstaller --noconfirm --onefile --console --icon "C:/Users/User/Downloads/benbytree_icon.ico" --add-binary "C:\Users\User\Documents\Project\rax_converter\custom_jre\bin;bin" --add-data "C:/Users/User/AppData/Local/Programs/Python/Python310/Lib/site-packages/tabula/tabula-1.0.5-jar-with-dependencies.jar;tabula" "C:/Users/User/Documents/Project/rax_converter/ever.py"
