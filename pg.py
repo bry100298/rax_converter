@@ -3,6 +3,7 @@ import shutil
 import pandas as pd
 from bs4 import BeautifulSoup
 import time
+import datetime
 
 # Variable dictionary mapping company folders to company names
 company_names = {
@@ -57,9 +58,23 @@ def html_to_excel(html_file, parent_dir):
         EDI_RARef = None
 
     # Extract EDI_RADate
+    # radate_tag = soup.find('th', string='Check Date:')
+    # if radate_tag:
+    #     EDI_RADate = radate_tag.find_next('td').text.strip()
+    # else:
+    #     EDI_RADate = None
+
+    # Extract EDI_RADate
     radate_tag = soup.find('th', string='Check Date:')
     if radate_tag:
-        EDI_RADate = radate_tag.find_next('td').text.strip()
+        EDI_RADate_text = radate_tag.find_next('td').text.strip()
+        # Convert the extracted date string to a datetime object
+        try:
+            date_obj = datetime.datetime.strptime(EDI_RADate_text, "%Y-%m-%d")
+            # Format the datetime object as mm-dd-yyyy
+            EDI_RADate = date_obj.strftime("%m-%d-%Y")
+        except ValueError:
+            EDI_RADate = None
     else:
         EDI_RADate = None
 

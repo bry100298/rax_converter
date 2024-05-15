@@ -17,6 +17,22 @@ def clean_column_names(df):
     # Remove trailing white spaces from column names
     df.columns = df.columns.str.strip()
 
+    # Find the indices of rows containing "Company Confidential"
+    confidential_indices = df.index[df.isin(["Company Confidential"]).any(axis=1)].tolist()
+
+    # Delete the row before each occurrence of "Company Confidential"
+    for idx in confidential_indices:
+        if idx > 0:
+            df.drop(idx - 1, inplace=True)
+
+    # Now drop rows containing "Company Confidential"
+    df.drop(df[df.isin(["Company Confidential"]).any(axis=1)].index, inplace=True)
+
+    # Remove rows containing "Company Confidential" in any column
+    # df.drop(df[df.isin(["Company Confidential"]).any(axis=1)].index, inplace=True)
+    # Remove rows where all columns have no characters or only whitespace
+    # df.drop(df[df.apply(lambda x: x.str.strip().eq('').all(), axis=1)].index, inplace=True)
+
 def move_to_archive(source_folder, target_folder):
     # Create the target directory if it doesn't exist
     if not os.path.exists(target_folder):
@@ -68,7 +84,7 @@ def merge_excel_files_robd(company_code):
     print(advice_file.dtypes)
     
     # Merge based on "Payment Ref No" column
-    merged_df = pd.merge(advice_file, summary_file[['Payment Ref No', 'Cheque Amount']], on='Payment Ref No', how='left')
+    merged_df = pd.merge(advice_file, summary_file[['Payment Ref No', 'Cheque Amount', 'Payment Date']], on='Payment Ref No', how='left')
 
     # Merge "Cheque Amount" from summary to advice file
     # advice_file["Cheque Amount"] = summary_file["Cheque Amount"]
@@ -76,7 +92,8 @@ def merge_excel_files_robd(company_code):
     # Update "Cheque Amount" column in advice file with values from summary file where applicable
     advice_file["Cheque Amount"] = merged_df["Cheque Amount"]
 
-    advice_file["Payment Date"] = summary_file["Payment Date"]  # Add Payment Date column
+    advice_file["Payment Date"] = merged_df["Payment Date"]
+    # advice_file["Payment Date"] = summary_file["Payment Date"]  # Add Payment Date column
     # advice_file["Payment Ref No"] = summary_file["Payment Ref No"]  # Add Payment Date column
 
     # Format 'Payment Ref No' column to have leading zeros and a fixed width of 10 characters
@@ -130,7 +147,7 @@ def merge_excel_files_robs(company_code):
     
 
     # Merge based on "Payment Ref No" column
-    merged_df = pd.merge(advice_file, summary_file[['Payment Ref No', 'Cheque Amount']], on='Payment Ref No', how='left')
+    merged_df = pd.merge(advice_file, summary_file[['Payment Ref No', 'Cheque Amount', 'Payment Date.']], on='Payment Ref No', how='left')
 
     # Merge "Cheque Amount" "Payment Date." and "Payment Ref No"
     # advice_file["Cheque Amount"] = summary_file["Cheque Amount"]
@@ -138,7 +155,17 @@ def merge_excel_files_robs(company_code):
     # Update "Cheque Amount" column in advice file with values from summary file where applicable
     advice_file["Cheque Amount"] = merged_df["Cheque Amount"]
     
-    advice_file["Payment Date."] = summary_file["Payment Date."]  # Add Payment Date column
+    # # Create a dictionary mapping Payment Ref No to Cheque Amount in summary_file
+    # payment_ref_to_cheque_amount = summary_file.set_index('Payment Ref No')['Cheque Amount'].to_dict()
+
+    # # Update "Cheque Amount" column in advice_file with values from summary file
+    # advice_file['Cheque Amount'] = advice_file['Payment Ref No'].map(payment_ref_to_cheque_amount)
+
+
+    advice_file["Payment Date."] = merged_df["Payment Date."]
+    # advice_file["Payment Date."] = summary_file["Payment Date."]  # Add Payment Date column
+
+
     # advice_file["Payment Ref No"] = summary_file["Payment Ref No"]  # Add Payment Date column
     
     # Save the merged DataFrame to a new Excel file
@@ -150,7 +177,12 @@ def merge_excel_files_robs(company_code):
     move_to_archive(inbound_folder, archive_folder)
     print("Original files moved to archive.")
 
-
+def get_payment_date(row):
+    if 'PAYMENT_DATE' in row.index and pd.notnull(row['PAYMENT_DATE']) and row['PAYMENT_DATE'].strip() != '':
+        return row['PAYMENT_DATE']
+    else:
+        return row.get('Payment Date.', row.get('Payment Date'))
+    
 def generate_inbound_outbound_excel(company_folder, company_names):
     # Get the company name based on the folder
     EDI_Customer = company_names[company_folder]
@@ -188,10 +220,16 @@ def generate_inbound_outbound_excel(company_folder, company_names):
         'EDI_RARef': df_existing['Payment Ref No'],  # Assuming "Payment Ref No" is the exact field name
         # 'EDI_RARef': df_existing['Payment Ref No'].astype(int).astype(str).str.zfill(10),
         # 'EDI_RARef': df_existing['Payment Ref No'].fillna(0).astype(int).astype(str).str.zfill(10),
-
         # 'EDI_RADate': [None] * len(df_existing),  # Placeholder for payment date
         # 'EDI_RADate': df_existing['Payment Date'],
-        'EDI_RADate': df_existing.get('Payment Date', df_existing.get('Payment Date.')),  # Use get() to handle both variations
+        # 'EDI_RADate': df_existing.get('Payment Date', df_existing.get('Payment Date.')),  # Use get() to handle both variations
+
+        # 'EDI_RADate': df_existing.apply(get_payment_date, axis=1),
+        # 'EDI_RADate': df_existing.get('Payment Date', df_existing['PAYMENT_DATE'], df_existing.get('Payment Date.')),
+
+        
+        'EDI_RADate': df_existing.apply(get_payment_date, axis=1),
+
         'EDI_RAAmt': df_existing['Cheque Amount']  # Assuming "Cheque Amount" is the exact field name
     }
     df_new = pd.DataFrame(data)

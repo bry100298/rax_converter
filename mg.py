@@ -38,7 +38,8 @@ def xml_to_excel(xml_file, parent_dir):
         invoice_detail = invoice_paid.find('INVOICE-DETAIL')
         company_folder = os.path.basename(os.path.dirname(xml_file))
         EDI_Customer = company_names.get(company_folder, '')
-        ASNAME = root.find('.//ASNAME').text
+        EDI_Company = root.find('.//SUPPLIER_NUMBER').text
+        # ASNAME = root.find('.//ASNAME').text
         INVOICE_TYPE = invoice_detail.find('INVOICE_TYPE').text
         EDI_TransType = None
         AIINV = invoice_detail.find('AIINV').text
@@ -47,7 +48,22 @@ def xml_to_excel(xml_file, parent_dir):
         AITONT = invoice_detail.find('AITONT').text
         AICHQ = invoice_detail.find('AICHQ').text
         BATCH_AMOUNT = invoice_detail.find('BATCH_AMOUNT').text
+
+        # Map supplier numbers to descriptions
+        supplier_number_to_description = {
+            'J3183': 'BENBY ENTERPRISES INC',
+            '17317': 'BENBY ENTERPRISES INC',
+            '350423': 'BENBY ENTERPRISES INC',
+            '350422': 'BENBY ENTERPRISES INC',
+            '27167': 'BRANDLINES ENTERPRISES INC',
+            '700107': 'BRANDLINES ENTERPRISES INC',
+            '902042': 'BOX & BASICS DISTRIBUTION INC',
+            '250244': 'GYMBOREE INTERNATIONAL INC',
+            '17617': 'SOLID FIVE DISTRIBUTION INC'
+        }
         
+        EDI_Company_Description = supplier_number_to_description.get(EDI_Company, '')
+
         # Find all INVOICE-DISCREPANCY elements
         for invoice_discrepancy in root.findall(".//INVOICE-DISCREPANCY"):
             # Find the corresponding DISCREPANCY-DETAIL element
@@ -72,7 +88,7 @@ def xml_to_excel(xml_file, parent_dir):
             # No matching discrepancy detail found
             PONUMB = None
 
-        data.append([EDI_Customer, ASNAME, INVOICE_TYPE, EDI_TransType, PONUMB, AIINV, AIAMT, None, WITHHOLDINGTAX, AITONT, AICHQ, None, BATCH_AMOUNT])
+        data.append([EDI_Customer, EDI_Company_Description, INVOICE_TYPE, EDI_TransType, PONUMB, AIINV, AIAMT, None, WITHHOLDINGTAX, AITONT, AICHQ, None, BATCH_AMOUNT])
 
     # Create DataFrame
     df = pd.DataFrame(data, columns=['EDI_Customer', 'EDI_Company', 'EDI_DocType', 'EDI_TransType', 'EDI_PORef', 'EDI_InvRef', 'EDI_Gross', 'EDI_Discount', 'EDI_EWT', 'EDI_Net', 'EDI_RARef', 'EDI_RADate', 'EDI_RAAmt'])
