@@ -42,22 +42,27 @@ def xml_to_excel(xml_file, parent_dir):
     check_number = root.find('.//checkNumber').text
     check_date = root.find('.//checkDate').text
     netPayable_elem = root.find('.//netPayable')
-    netPayable = netPayable_elem.text if netPayable_elem is not None else None
+    # netPayable = netPayable_elem.text if netPayable_elem is not None else None
+    netPayable = netPayable_elem.text.replace(',', '') if netPayable_elem is not None else None  # Remove commas
 
     for article in root.findall('.//article'):
         company_folder = os.path.basename(os.path.dirname(xml_file))
         trans_code = article.find('transCode').text
         po_number = article.find('poNumber').text
         doc_ref = article.find('docRef').text
-        gross_amount = article.find('grossAmount').text
-        discount = article.find('discount').text
-        netAmount = article.find('netAmount').text
+        gross_amount = article.find('grossAmount').text.replace(',', '')  # Remove commas
+        discount = article.find('discount').text.replace(',', '')  # Remove commas
+        netAmount = article.find('netAmount').text.replace(',', '')  # Remove commas
 
         # Append to data list
         data.append([company_names[company_folder], payeeName, trans_code, None, po_number, doc_ref, gross_amount, discount, None, netAmount, check_number, check_date, netPayable])
 
     # Create DataFrame
     df = pd.DataFrame(data, columns=['EDI_Customer', 'EDI_Company', 'EDI_DocType', 'EDI_TransType', 'EDI_PORef', 'EDI_InvRef', 'EDI_Gross', 'EDI_Discount', 'EDI_EWT', 'EDI_Net', 'EDI_RARef', 'EDI_RADate', 'EDI_RAAmt'])
+
+    # Convert columns to numeric
+    numeric_columns = ['EDI_PORef', 'EDI_InvRef', 'EDI_Gross', 'EDI_Discount', 'EDI_EWT', 'EDI_Net', 'EDI_RARef', 'EDI_RAAmt']
+    df[numeric_columns] = df[numeric_columns].apply(pd.to_numeric, errors='coerce').fillna(0)  # Coerce errors to NaN and fill NaNs with 0
 
     # Create Excel file path
     company_folder = os.path.basename(os.path.dirname(xml_file))

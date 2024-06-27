@@ -39,7 +39,7 @@ def xml_to_excel(xml_file, parent_dir):
     ra_number = root.find('.//remittance_advice_number').text
     payment_date = root.find('.//payment_date').text
     total_amount_elem = root.find('.//total_amount')
-    total_amount = total_amount_elem.text if total_amount_elem is not None else None
+    total_amount = total_amount_elem.text.replace(',', '') if total_amount_elem is not None else None # Remove commas
 
     for article in root.findall('.//article'):
         company_folder = os.path.basename(os.path.dirname(xml_file))
@@ -50,9 +50,9 @@ def xml_to_excel(xml_file, parent_dir):
         # remarks_element = article.find('Remarks')
         # po_number = remarks_element.text.split('#', 1)[-1].strip() if remarks_element is not None else None
         doc_number = article.find('Document_Number').text
-        gross_amount = article.find('Invoice_Amount').text
-        wTax = article.find('.//WTAX').text
-        net_payable = article.find('Net_Payable').text
+        gross_amount = article.find('Invoice_Amount').text.replace(',', '')  # Remove commas
+        wTax = article.find('.//WTAX').text.replace(',', '') # Remove commas
+        net_payable = article.find('Net_Payable').text.replace(',', '') # Remove commas
 
         # Append to data list
         data.append([company_names[company_folder], vendor_name, trans_code, None, po_number, doc_number, gross_amount, None, wTax, net_payable, ra_number, payment_date, total_amount])
@@ -60,6 +60,10 @@ def xml_to_excel(xml_file, parent_dir):
     # Create DataFrame
     df = pd.DataFrame(data, columns=['EDI_Customer', 'EDI_Company', 'EDI_DocType', 'EDI_TransType', 'EDI_PORef', 'EDI_InvRef', 'EDI_Gross', 'EDI_Discount', 'EDI_EWT', 'EDI_Net', 'EDI_RARef', 'EDI_RADate', 'EDI_RAAmt'])
 
+    # Convert columns to numeric
+    numeric_columns = ['EDI_PORef', 'EDI_InvRef', 'EDI_Gross', 'EDI_Discount', 'EDI_EWT', 'EDI_Net', 'EDI_RARef', 'EDI_RAAmt']
+    df[numeric_columns] = df[numeric_columns].apply(pd.to_numeric, errors='coerce').fillna(0)  # Coerce errors to NaN and fill NaNs with 0
+    
     # Create Excel file path
     company_folder = os.path.basename(os.path.dirname(xml_file))
     excel_folder = os.path.join(inbound_outbound_folder, company_folder)
