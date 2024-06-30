@@ -234,7 +234,12 @@ def generate_inbound_outbound_excel(company_folder, company_names):
             df_existing['Document Description'].fillna('').astype(str).replace('^$', '', regex=True)
         ).replace('^_$', '', regex=True).replace('^_', '', regex=True).replace('_$', '', regex=True),
         'EDI_PORef': pd.to_numeric(df_existing['PO Number.'], errors='coerce'),  # Assuming "PO Number" is the exact field name
-        'EDI_InvRef': pd.to_numeric(df_existing['Invoice No'], errors='coerce'),  # Assuming "Invoice No" is the exact field name
+        # 'EDI_InvRef': pd.to_numeric(df_existing['Invoice No'], errors='coerce'),  # Assuming "Invoice No" is the exact field name
+        # 'EDI_InvRef': df_existing['Invoice No'].where(df_existing['Invoice No'].notna() & df_existing['Invoice No'].str.strip().ne(''), df_existing['Document No']),  # Use 'Invoice No' if available, otherwise use 'Document No'
+        'EDI_InvRef': df_existing.apply(
+            lambda row: row['Invoice No'] if pd.notna(row['Invoice No']) and row['Invoice No'].strip() not in ['', '--'] else row['Document No'], 
+            axis=1
+        ),  # Use 'Invoice No' if available and not empty or '--', otherwise use 'Document No'
         'EDI_Gross': pd.to_numeric(df_existing['RC Amount'], errors='coerce'),  # Assuming "RC Amount" is the exact field name
         'EDI_Discount': pd.to_numeric([None] * len(df_existing), errors='coerce'),
         'EDI_EWT': pd.to_numeric(df_existing['EWT'], errors='coerce') * -1,  # Assuming "EWT" is the exact field name, # Convert positive to negative and negative to positive
