@@ -57,6 +57,18 @@ def xml_to_excel(xml_file, parent_dir):
         # Append to data list
         data.append([company_names[company_folder], payeeName, trans_code, None, po_number, doc_ref, gross_amount, discount, None, netAmount, check_number, check_date, netPayable])
 
+    # Adding the last row with 'arItcc'
+    arItcc_elem = root.find('.//arItcc')
+    arItcc = arItcc_elem.text.replace(',', '') if arItcc_elem is not None else None  # Remove commas
+
+    if arItcc:
+        company_folder = os.path.basename(os.path.dirname(xml_file))
+        last_row = [company_names[company_folder], payeeName, 'arItcc', None, None, None, None, None, None, arItcc, check_number, check_date, netPayable]
+        data.append(last_row)
+        print("Last row added:", last_row)
+    else:
+        print("No arItcc found")
+
     # Create DataFrame
     df = pd.DataFrame(data, columns=['EDI_Customer', 'EDI_Company', 'EDI_DocType', 'EDI_TransType', 'EDI_PORef', 'EDI_InvRef', 'EDI_Gross', 'EDI_Discount', 'EDI_EWT', 'EDI_Net', 'EDI_RARef', 'EDI_RADate', 'EDI_RAAmt'])
 
@@ -73,6 +85,7 @@ def xml_to_excel(xml_file, parent_dir):
 
     # Write DataFrame to Excel
     df.to_excel(excel_file, index=False)
+    print(f"DataFrame written to {excel_file}")
 
     # Create Archive Folder if not exists
     archive_excel_folder = os.path.join(archive_folder, 'excel', company_folder)
