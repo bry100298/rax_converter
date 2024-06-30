@@ -210,7 +210,14 @@ def generate_inbound_outbound_excel(company_folder, company_names):
         'EDI_Customer': [EDI_Customer] * len(df_existing),  # Repeat the customer name for each row
         'EDI_Company': df_existing['VENDOR'],   # Placeholder for company name
         'EDI_DocType': df_existing['Transaction_Type'], # Placeholder for document type
-        'EDI_TransType': [None] * len(df_existing),
+        # 'EDI_TransType': [None] * len(df_existing),
+        # 'EDI_DocDescr': df_existing['VENDOR CODE'].astype(str) + '_' + df_existing['Document Description'].astype(str),
+        # 'EDI_DocDescr': df_existing.get('VENDOR CODE', df_existing.get('Vendor Code')).astype(str) + '_' + df_existing['Document Description'].astype(str),
+        'EDI_DocDescr': (
+            df_existing.get('VENDOR CODE', df_existing.get('Vendor Code', '')).fillna('').astype(str).replace('^$', '', regex=True) + 
+            '_' + 
+            df_existing['Document Description'].fillna('').astype(str).replace('^$', '', regex=True)
+        ).replace('^_$', '', regex=True).replace('^_', '', regex=True).replace('_$', '', regex=True),
         'EDI_PORef': df_existing['PO Number.'],  # Assuming "PO Number" is the exact field name
         'EDI_InvRef': df_existing['Invoice No'],  # Assuming "Invoice No" is the exact field name
         'EDI_Gross': df_existing['RC Amount'],  # Assuming "RC Amount" is the exact field name
