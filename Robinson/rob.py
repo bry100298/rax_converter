@@ -205,6 +205,21 @@ def generate_inbound_outbound_excel(company_folder, company_names):
         print("Error occurred while reading Excel file:", e)  # Print any errors that occur
         return
 
+    # List of document types for which EDI_Net should be negative
+    negative_doc_types = [
+        'Accounting Document', 'DM Enlistment Fee', 'DM Penalty Chrg', 'Invoice Matching',
+        'DM Rebates', 'DM Return Deli Order', 'DM Ad Support', 'DM DC Allowance',
+        'DM SPA Subscription', 'DM Bundling', 'DM Other Adjustments', 'Trade RTV Adj',
+        'DM Other Income', 'Trade PO Rcvg. Adj', 'Gondola Debit Memo', 'Payment Posting', 'DM DC Fee'
+    ]
+
+    # Function to conditionally invert the sign
+    def adjust_net_amount(row):
+        net_amount = pd.to_numeric(row['NET AMOUNT'], errors='coerce')
+        if row['Transaction_Type'] in negative_doc_types and net_amount > 0:
+            return net_amount * -1
+        return net_amount
+    
     # Generate a new DataFrame with the desired columns
     data = {
         'EDI_Customer': [EDI_Customer] * len(df_existing),  # Repeat the customer name for each row
@@ -218,12 +233,14 @@ def generate_inbound_outbound_excel(company_folder, company_names):
             '_' + 
             df_existing['Document Description'].fillna('').astype(str).replace('^$', '', regex=True)
         ).replace('^_$', '', regex=True).replace('^_', '', regex=True).replace('_$', '', regex=True),
-        'EDI_PORef': df_existing['PO Number.'],  # Assuming "PO Number" is the exact field name
-        'EDI_InvRef': df_existing['Invoice No'],  # Assuming "Invoice No" is the exact field name
-        'EDI_Gross': df_existing['RC Amount'],  # Assuming "RC Amount" is the exact field name
-        'EDI_Discount': [None] * len(df_existing),
-        'EDI_EWT': df_existing['EWT'],  # Assuming "EWT" is the exact field name
-        'EDI_Net': df_existing['NET AMOUNT'],  # Assuming "NET AMOUNT" is the exact field name
+        'EDI_PORef': pd.to_numeric(df_existing['PO Number.'], errors='coerce'),  # Assuming "PO Number" is the exact field name
+        'EDI_InvRef': pd.to_numeric(df_existing['Invoice No'], errors='coerce'),  # Assuming "Invoice No" is the exact field name
+        'EDI_Gross': pd.to_numeric(df_existing['RC Amount'], errors='coerce'),  # Assuming "RC Amount" is the exact field name
+        'EDI_Discount': pd.to_numeric([None] * len(df_existing), errors='coerce'),
+        'EDI_EWT': pd.to_numeric(df_existing['EWT'], errors='coerce') * -1,  # Assuming "EWT" is the exact field name, # Convert positive to negative and negative to positive
+        # 'EDI_Net': pd.to_numeric(df_existing['NET AMOUNT'], errors='coerce'),  # Assuming "NET AMOUNT" is the exact field name
+        # 'EDI_Net': pd.to_numeric(df_existing['NET AMOUNT'], errors='coerce') * -1,  # Assuming "NET AMOUNT" is the exact field name
+        'EDI_Net': df_existing.apply(adjust_net_amount, axis=1),  # Apply the function to adjust net amount
         'EDI_RARef': df_existing['Payment Ref No'],  # Assuming "Payment Ref No" is the exact field name
         # 'EDI_RARef': df_existing['Payment Ref No'].astype(int).astype(str).str.zfill(10),
         # 'EDI_RARef': df_existing['Payment Ref No'].fillna(0).astype(int).astype(str).str.zfill(10),
@@ -237,7 +254,7 @@ def generate_inbound_outbound_excel(company_folder, company_names):
         
         'EDI_RADate': df_existing.apply(get_payment_date, axis=1),
 
-        'EDI_RAAmt': df_existing['Cheque Amount']  # Assuming "Cheque Amount" is the exact field name
+        'EDI_RAAmt': pd.to_numeric(df_existing['Cheque Amount'], errors='coerce')  # Assuming "Cheque Amount" is the exact field name
     }
     df_new = pd.DataFrame(data)
 
